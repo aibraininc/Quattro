@@ -49,21 +49,18 @@ image:aseembly_kit.png[]
 
 |===
 
-=== Step 1. Attach servo motor with battery frame
+
+=== Step 1. Assemble lower body
+==== Step 1.1 Attach servo motor with battery frame
 The label of the servo motor should point to the upper part of the robot.
 The cable should be on the left.
 
-=== Step 2. Solder electronic part to PCB
+=== Step 2. Assemble mid body
+==== Step 2.1 Solder electronic part to PCB
 A printed circuit board (PCB) mechanically supports and electrically connects electronic components.
 Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.
-
 Intro soldering
-
-- Insert the parts (LED, switch, Potentiometer)
-- You can place the solder into the tip of the soldering iron
-
-
-=== Step 3. Insert knobs
+==== Step 2.2 Insert knobs
 Insert knobs to potentiometer.
 
 Potentiometer is a sensor that is common in our daily lives.
@@ -71,13 +68,13 @@ Potentiometers are used to control sound, velocity or frequency.
 For example, you can control the intensity of the light or the volume of sound using a Potentiometer.
 We will use this sensor to control the phase, frequency, and amplitude of the robot.
 
-=== Step 4. Label the potentiometer
+- Insert the parts (LED, switch, Potentiometer)
+- You can place the solder into the tip of the soldering iron
+==== Step 2.3 Label the potentiometer
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
-=== Step 5. Attach arduino to PCB
+=== Step 3. Assemble upperbody
+=== Step 4. Integrate mid-body with upper-body
+==== Step 6. Attach arduino to PCB
 
-Arduino is a tiny computer.
-So, Arduino is the brain of the robot.
-It contains a program that commands each electric component.
-It can ask sensors to give information about the environment.
-Or it can control the motor.
+=== Step 5. Integrate mid-body+upper-body with lower body
