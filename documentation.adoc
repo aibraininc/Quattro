@@ -55,7 +55,10 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 
 == Assembly
 
-=== Step 1. Attach servo motor with battery frame
+=== Step 1. Assemble lower body
+
+==== Step 1.1 Attach servo motor with battery frame
+
 When you attach motors with frame, you should care following.
 
 - The label of the servo motor should point to the upper part of the robot.
@@ -68,17 +71,18 @@ image:!servo_motor_image_angle_90.png[]
 
 image:!servo_motor_image_angle_180.png[]
 
-=== Step 2. Solder electronic part to SO(2)-walker board
+=== Step 2. Assemble mid body
+==== Step 2.1 Solder electronic part to SO(2)-walker board
+
 A printed circuit board (PCB) mechanically supports and electrically connects electronic components.
 Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.
-
 Intro soldering
 
 - Insert the parts (LED, switch, Potentiometer)
 - You can place the solder into the tip of the soldering iron
 
 
-=== Step 3. Insert knobs
+==== Step 2.2 Insert knobs
 Insert knobs to potentiometer.
 
 Potentiometer is a sensor that is common in our daily lives.
@@ -86,32 +90,31 @@ Potentiometers are used to control sound, velocity or frequency.
 For example, you can control the intensity of the light or the volume of sound using a Potentiometer.
 We will use this sensor to control the phase, frequency, and amplitude of the robot.
 
-=== Step 4. Label the potentiometer
-Attach label to the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
+==== Step 2.3 Label the potentiometer
+Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
-=== Step 5. Attach arduino to SO(2)-walker board
+=== Step 3. Assemble upperbody
+
+==== Step 3.1 Attach arduino to SO(2)-walker board
+
 Attach arduino to SO(2)-walker board.
 
 You should care direction of arduino.
 
 image:!direction of arduino[]
 
-
-Arduino is a tiny computer.
-So, Arduino is the brain of the robot.
-It contains a program that commands each electric component.
-It can ask sensors to give information about the environment.
-Or it can control the motor.
-
-=== Step 6. Attach the servo motor cable
+==== Step 3.2 Attach the servo motor cable
 
 You should care direction of motor cable.
 
 image:!direction of motor cable[]
 
-=== Step 7. Add battery to the frame
 
-=== Step 8. Attach the SO(2)-walker board and Arduino to the frame
+=== Step 4. Integrate mid-body with upper-body
+
+==== Step 4.1 Add battery to the frame
+
+==== Step 4.2 Attach the SO(2)-walker board and Arduino to the frame
 
 It is body of robot.
 
@@ -119,23 +122,17 @@ image:! before attach board and arduino[]
 
 image:! robot body[]]
 
-
-=== Step 9. Attach ultrasonic sensor cable to SO(2)-walker board
+==== Step 4.3 Attach ultrasonic sensor cable to SO(2)-walker board
 
 Ultrasonic sesnor has 4 pin (vcc,gnd,trig,echo).
 You should connect those pint to SO(2)-walker board.
 
 image:!connection between sensor and board []
 
-It is a distance measuring sensor using ultrasonic waves.
-Ultrasonic wave is a sound with high frequency.
-This sound wave has a tendency to go straight and reflect.
-Ultrasound equipment generates ultrasonic waves and detects the reflection of waves.
-The equipment measures the distance based on the time of sound being emitted and reflected back.
-This ultrasonic sensor is used on robots for detecting obstacles.
 
+=== Step 5. Integrate mid-body+upper-body with lower body
 
-=== Step 10. Build robot legs
+==== Step 5.1 Build robot legs
 
 You can build robot legs with legos and any stuff you want
 
