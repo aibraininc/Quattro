@@ -9,7 +9,7 @@ _This is Quattro manual. Following these steps will enable you to build your Qua
 
 [cols="a,a"]
 |====
-| image::before_assembly.png[before] | image::after_assembly.png[after]
+| image::before_assembly.png[before-assembly-image] | image::after_assembly.png[after-assembly-image]
 |====
 
 
@@ -27,7 +27,7 @@ You will need these tools to assemble the Quattro robot.
 
 === Quattro Assembly Kit Parts
 
-image:aseembly_kit.png[]
+image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 
 [cols=2*]
 |===
@@ -35,25 +35,40 @@ image:aseembly_kit.png[]
 | 2  | Battery holder socket
 | 4  | AA 1.5V battery
 | 1  | Arduino-nano-compatible board
-| 1  | PCB board
+| 1  | SO(2)-walker board
 2+| *Electronic parts*
 | 2  | Servomotor
 | 1  | Ultrasonic sensor
-| 2  | 15x1 pin header female
+| 2  | 15x1 pin header socket
 | 4  | 3x1 pin header
 | 4  | 10K potentiometer
 | 4  | poti knob
-| 2  | resistor 1k
-
+| 2  | Resistor 1k
+| 2  | LED
+| 1  | Slide switch
+| 1  | Tactile switch
+| 1  | capacitor 100nF
+| 1  | capacitor 100uF
 
 
 |===
 
-=== Step 1. Attach servo motor with battery frame
-The label of the servo motor should point to the upper part of the robot.
-The cable should be on the left.
+== Assembly
 
-=== Step 2. Solder electronic part to PCB
+=== Step 1. Attach servo motor with battery frame
+When you attach motors with frame, you should care following.
+
+- The label of the servo motor should point to the upper part of the robot.
+- The cable should be on the left.
+- The angles of the two motor axes are important.
+
+Suggestion: motor axis are aligned 45-90 deg to each other
+
+image:!servo_motor_image_angle_90.png[]
+
+image:!servo_motor_image_angle_180.png[]
+
+=== Step 2. Solder electronic part to SO(2)-walker board
 A printed circuit board (PCB) mechanically supports and electrically connects electronic components.
 Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.
 
@@ -72,12 +87,60 @@ For example, you can control the intensity of the light or the volume of sound u
 We will use this sensor to control the phase, frequency, and amplitude of the robot.
 
 === Step 4. Label the potentiometer
-Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
+Attach label to the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
-=== Step 5. Attach arduino to PCB
+=== Step 5. Attach arduino to SO(2)-walker board
+Attach arduino to SO(2)-walker board.
+
+You should care direction of arduino.
+
+image:!direction of arduino[]
+
 
 Arduino is a tiny computer.
 So, Arduino is the brain of the robot.
 It contains a program that commands each electric component.
 It can ask sensors to give information about the environment.
 Or it can control the motor.
+
+=== Step 6. Attach the servo motor cable
+
+You should care direction of motor cable.
+
+image:!direction of motor cable[]
+
+=== Step 7. Add battery to the frame
+
+=== Step 8. Attach the SO(2)-walker board and Arduino to the frame
+
+It is body of robot.
+
+image:! before attach board and arduino[]
+
+image:! robot body[]]
+
+
+=== Step 9. Attach ultrasonic sensor cable to SO(2)-walker board
+
+Ultrasonic sesnor has 4 pin (vcc,gnd,trig,echo).
+You should connect those pint to SO(2)-walker board.
+
+image:!connection between sensor and board []
+
+It is a distance measuring sensor using ultrasonic waves.
+Ultrasonic wave is a sound with high frequency.
+This sound wave has a tendency to go straight and reflect.
+Ultrasound equipment generates ultrasonic waves and detects the reflection of waves.
+The equipment measures the distance based on the time of sound being emitted and reflected back.
+This ultrasonic sensor is used on robots for detecting obstacles.
+
+
+=== Step 10. Build robot legs
+
+You can build robot legs with legos and any stuff you want
+
+image:!example legs 1 []
+
+image:!example legs 2 []
+
+image:!example legs 3 []
