@@ -9,7 +9,7 @@ _This is Quattro manual. Following these steps will enable you to build your Qua
 
 [cols="a,a"]
 |====
-| image::before_assembly.png[before] | image::after_assembly.png[after]
+| image:aseembly_kit.png[320,240] | image:aseembly_kit.png[320,240]
 |====
 
 
@@ -22,8 +22,8 @@ WARNING: Self-manufacturing of the parts is encouraged but can not be officially
 You will need these tools to assemble the Quattro robot.
 
 * Glue gun
-* Soldering iron
-* Stuff for robot legs (ex: legos, chopsticks)
+* Soldering iron & Solder
+* Household material for robot legs (ex: legos, chopsticks)
 
 === Quattro Assembly Kit Parts
 
@@ -56,10 +56,30 @@ The label of the servo motor should point to the upper part of the robot.
 The cable should be on the left.
 
 === Step 2. Assemble mid body
+
+==== Step 2.1 Solder resistors
+
+==== Step 2.2 Solder capacitors
+
+==== Step 2.3 Solder LEDs
+
+==== Step 2.4 Solder pinhead sockets
+
+==== Step 2.5 Solder tatile switch
+
+==== Step 2.6 Solder slide switch
+
+==== Step 2.7 Solder pinhead
+
+==== Step 2.8 Solder potentiometer 
+
+
+
 ==== Step 2.1 Solder electronic part to PCB
 A printed circuit board (PCB) mechanically supports and electrically connects electronic components.
 Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.
 Intro soldering
+
 ==== Step 2.2 Insert knobs
 Insert knobs to potentiometer.
 
