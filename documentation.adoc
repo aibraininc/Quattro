@@ -122,13 +122,19 @@ image:!direction of arduino[]
 
 === Step 5. Integrate mid-body+upper-body with lower body
 
-==== Step 5.1 Add battery to the frame
 
-==== Step 5.2 Attach the cables that connect battery to PCB Board 
+==== Step 5.1 Attach the cables that connect battery to PCB Board 
+Need to watchout for -/+ of the cable
+Need picture taht shows which is +/- 
 
-==== Step 5.3 Attach mid-body+upper-body with lower body
+==== Step 5.2 Add battery to the frame
 
-==== Step 5.4 Attach the servo motor cable
+==== Step 5.3 Attach the servo motor cable
+Need to make sure the cable is in the right driection, brown first 
+Need to test if the power can be turned on
+
+==== Step 5.4 Attach mid-body+upper-body with lower body
+Need to watchout taht servo motor should be att eh btom
 
 You should care direction of motor cable.
 
