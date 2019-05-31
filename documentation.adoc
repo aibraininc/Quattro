@@ -64,6 +64,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 
 === Step 1. Assemble lower body
 Tools: Glue gun
+
 ==== Step 1.1 Attach servo motor with battery frame
 
 When you attach motors with frame, you should care following.
@@ -106,6 +107,41 @@ check +- of LEDs
 - Bend the input mechanism of the potentiometer outwards 
 - Solder the potentiometer onto the PCB board 
  
+==== Step 2.9 Label the potentiometers 
+
+
+==== Step 2.10 Prepare and solder cable that is used for power for the ultrasonic sensor 
+
+=== Step 3. Assemble upperbody
+Tools: Solder, soldering iron
+==== Step 3.1 Solder pinhead to ardriono board 
+=== Step 4. Integrate mid-body with upper-body 
+==== Step 4.1 Attach upper-body to the mid-body 
+You should care direction of arduino.
+image:!direction of arduino[]
+
+=== Step 5. Integrate mid-body+upper-body with lower body
+
+==== Step 5.1 Add battery to the frame
+
+==== Step 5.2 Attach the cables that connect battery to PCB Board 
+
+==== Step 5.3 Attach mid-body+upper-body with lower body
+
+==== Step 5.4 Attach the servo motor cable
+
+You should care direction of motor cable.
+
+image:!direction of motor cable[]
+
+
+
+
+
+
+
+
+
 
 
 ==== Step 2.1 Solder electronic part to PCB
@@ -127,17 +163,6 @@ We will use this sensor to control the phase, frequency, and amplitude of the ro
 
 ==== Step 2.3 Label the potentiometer
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
-
-=== Step 3. Assemble upperbody
-Tools: Solder, soldering iron
-==== Step 3.1 Solder pinhead to ardriono board 
-=== Step 4. Integrate mid-body with upper-body 
-==== Step 4.1 Attach upper-body to the mid-body 
-You should care direction of arduino.
-image:!direction of arduino[]
-
-=== Step 5. Integrate mid-body+upper-body with lower body
-
 
 
 ==== Step 3.1 Attach arduino to SO(2)-walker board
