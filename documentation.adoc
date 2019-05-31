@@ -81,15 +81,21 @@ image:!servo_motor_image_angle_180.png[]
 
 ==== Step 2.2 Solder capacitors
 
-==== Step 2.3 Solder LEDs
+check +- of black capacitor (100uf)
 
-==== Step 2.4 Solder pinhead sockets
+==== Step 2.3 Solder pinhead for battery connection
 
-==== Step 2.5 Solder tatile switch
+after soldering, band pinhead
 
-==== Step 2.6 Solder slide switch
+==== Step 2.4 Solder LEDs
 
-==== Step 2.7 Solder pinhead
+check +- of LEDs 
+
+==== Step 2.5 Solder tatile switch & slide switch
+
+==== Step 2.6 Solder pinhead sockets for arduino
+
+==== Step 2.7 Solder pinhead for servo motors 
 
 ==== Step 2.8 Solder potentiometer 
 
