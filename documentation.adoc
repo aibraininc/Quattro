@@ -27,7 +27,10 @@ You will need these tools to assemble the Quattro robot.
 
 * Glue gun
 * Soldering iron & Solder
+* Cable cutting nippers 
+* Plier
 * Household material for robot legs (ex: legos, chopsticks)
+*
 
 === Quattro Assembly Kit Parts
 
@@ -60,7 +63,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 == Assembly
 
 === Step 1. Assemble lower body
-
+Tools: Glue gun
 ==== Step 1.1 Attach servo motor with battery frame
 
 When you attach motors with frame, you should care following.
@@ -76,6 +79,7 @@ image:!servo_motor_image_angle_90.png[]
 image:!servo_motor_image_angle_180.png[]
 
 === Step 2. Assemble mid body
+Tools: Solder, soldering iron, 
 
 ==== Step 2.1 Solder resistors
 
@@ -97,8 +101,11 @@ check +- of LEDs
 
 ==== Step 2.7 Solder pinhead for servo motors 
 
-==== Step 2.8 Solder potentiometer 
-
+==== Step 2.8 Prepare and solder potentiometer 
+- Bend the supporting mechanism of the potentiometer inward 
+- Bend the input mechanism of the potentiometer outwards 
+- Solder the potentiometer onto the PCB board 
+ 
 
 
 ==== Step 2.1 Solder electronic part to PCB
