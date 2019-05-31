@@ -129,14 +129,22 @@ We will use this sensor to control the phase, frequency, and amplitude of the ro
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
 === Step 3. Assemble upperbody
+Tools: Solder, soldering iron
+==== Step 3.1 Solder pinhead to ardriono board 
+=== Step 4. Integrate mid-body with upper-body 
+==== Step 4.1 Attach upper-body to the mid-body 
+You should care direction of arduino.
+image:!direction of arduino[]
+
+=== Step 5. Integrate mid-body+upper-body with lower body
+
+
 
 ==== Step 3.1 Attach arduino to SO(2)-walker board
 
 Attach arduino to SO(2)-walker board.
 
-You should care direction of arduino.
 
-image:!direction of arduino[]
 
 ==== Step 3.2 Attach the servo motor cable
 
@@ -145,7 +153,6 @@ You should care direction of motor cable.
 image:!direction of motor cable[]
 
 
-=== Step 4. Integrate mid-body with upper-body
 
 ==== Step 4.1 Add battery to the frame
 
@@ -165,7 +172,6 @@ You should connect those pint to SO(2)-walker board.
 image:!connection between sensor and board []
 
 
-=== Step 5. Integrate mid-body+upper-body with lower body
 
 ==== Step 5.1 Build robot legs
 
