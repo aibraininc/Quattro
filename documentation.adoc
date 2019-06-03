@@ -27,7 +27,10 @@ You will need these tools to assemble the Quattro robot.
 
 * Glue gun
 * Soldering iron & Solder
+* Cable cutting nippers 
+* Plier
 * Household material for robot legs (ex: legos, chopsticks)
+*
 
 === Quattro Assembly Kit Parts
 
@@ -60,6 +63,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 == Assembly
 
 === Step 1. Assemble lower body
+Tools: Glue gun
 
 ==== Step 1.1 Attach servo motor with battery frame
 
@@ -76,22 +80,77 @@ image:!servo_motor_image_angle_90.png[]
 image:!servo_motor_image_angle_180.png[]
 
 === Step 2. Assemble mid body
+Tools: Solder, soldering iron, 
 
 ==== Step 2.1 Solder resistors
 
 ==== Step 2.2 Solder capacitors
 
-==== Step 2.3 Solder LEDs
+check +- of black capacitor (100uf)
 
-==== Step 2.4 Solder pinhead sockets
+==== Step 2.3 Solder pinhead for battery connection
 
-==== Step 2.5 Solder tatile switch
+after soldering, band pinhead
 
-==== Step 2.6 Solder slide switch
+==== Step 2.4 Solder LEDs
 
-==== Step 2.7 Solder pinhead
+check +- of LEDs 
 
+==== Step 2.5 Solder tatile switch & slide switch
+
+==== Step 2.6 Solder pinhead sockets for arduino
+
+==== Step 2.7 Solder pinhead for servo motors 
+
+==== Step 2.8 Prepare and solder potentiometer 
+- Bend the supporting mechanism of the potentiometer inward 
+- Bend the input mechanism of the potentiometer outwards 
+- Solder the potentiometer onto the PCB board 
+ 
+==== Step 2.9 Label the potentiometers 
+
+
+==== Step 2.10 Prepare and solder cable that is used for power for the ultrasonic sensor 
+
+=== Step 3. Assemble upperbody
+Tools: Solder, soldering iron
+==== Step 3.1 Solder pinhead to ardriono board 
+=== Step 4. Integrate mid-body with upper-body 
+==== Step 4.1 Attach upper-body to the mid-body 
+You should care direction of arduino.
+image:!direction of arduino[]
+
+=== Step 5. Integrate mid-body+upper-body with lower body
+
+
+==== Step 5.1 Attach the cables that connect battery to PCB Board 
+Need to watchout for -/+ of the cable
+Need picture taht shows which is +/- 
+
+==== Step 5.2 Add battery to the frame
+
+==== Step 5.3 Attach the servo motor cable
+Need to make sure the cable is in the right driection, brown first 
+Need to test if the power can be turned on
+
+==== Step 5.4 Attach mid-body+upper-body with lower body
+Need to watchout taht servo motor should be att eh btom
+
+You should care direction of motor cable.
+
+image:!direction of motor cable[]
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 ==== Step 2.8 Solder potentiometer
+=======
+>>>>>>> 4faaa2e3e640d54069ae32418aacaed4a2c3df90
 
 
 
@@ -115,19 +174,15 @@ We will use this sensor to control the phase, frequency, and amplitude of the ro
 ==== Step 2.3 Label the potentiometer
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
-=== Step 3. Assemble upperbody
 
 ==== Step 3.1 Attach arduino to SO(2)-walker board
 
 Attach arduino to SO(2)-walker board.
 
-You should care direction of arduino.
-
-image:!direction of arduino[]
 
 
 
-=== Step 4. Integrate mid-body with upper-body
+
 
 ==== Step 4.1 Add battery to the frame
 
@@ -147,7 +202,6 @@ You should connect those pint to SO(2)-walker board.
 image:!connection between sensor and board []
 
 
-=== Step 5. Integrate mid-body+upper-body with lower body
 
 ==== Step 5.1 Attach the battery cable to PCB
 
