@@ -154,6 +154,13 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 
 *Instructions*
 
+2.3.1 Insert a pinhead
+
+2.3.2 Solder the pinhead
+
+2.3.3 bend the pinhead
+
+
 link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video tutorial]
 // [link=https://www.youtube.com/watch?v=MrHjogbX79M]
 // image::https://img.youtube.com/vi/MrHjogbX79M/0.jpg[320,240]
@@ -172,7 +179,9 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 
 2.4.2 Pull the wire and bend it.
 
-2.4.3 Solder
+* Long wire is the plus
+
+2.4.3 Solder it
 
 2.4.4 Cut the excess wires
 
@@ -293,7 +302,7 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 
 === Step 3. Assemble upperbody
 
-==== Step 3.1 Solder pinhead to ardriono board
+==== Step 3.1 Solder pinhead to arduino board
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -301,6 +310,8 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 |====
 
 *Instructions*
+
+3.1.1 solder pinhead to arduino board
 
 link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video tutorial]
 
@@ -318,7 +329,13 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 *Instructions*
 
-link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
+4.1.1 attach upper-body(arduino) to mid-body
+
+* You should care direction of arduino.
+* The USB terminal of the Arduino is in the same direction as the tatile switch.
+
+
+link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video tutorial]
 
 
 ==== Step 4.2 Attach the SO(2)-walker board and Arduino to the frame
@@ -339,20 +356,32 @@ image:!connection between sensor and board []
 
 === Step 5. Integrate mid-body+upper-body with lower body
 
-==== Step 5.1 Attach the battery cable to PCB
+==== Step 5.1 Attach the cables that connect battery to PCB Board
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
 |====
 
-==== Step 5.1 Attach the servo motor cable
+*Instructions*
+
+5.1.1 connect battery with PCB board
+
+* you should check plus and minus
+
+* a hole with the letter 'GND' is minus
+
+link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
+
+
+
+==== Step 5.2 Attach the servo motor cable
 
 You should care direction of motor cable.
 
 image:!direction of motor cable[]
 
-==== Step 5.1 Build robot legs
+==== Step 5.3 Build robot legs
 
 You can build robot legs with legos and any stuff you want
 
