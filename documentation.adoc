@@ -83,17 +83,12 @@ Tools: Glue gun
 Suggestion: motor axis are aligned 45-90 deg to each other
 When you attach motors with frame, you should care following.
 
-video::fO54vNBzYJA[youtube]
-link:https://www.youtube.com/watch?v=fO54vNBzYJA[Step 1.1 Attach servo motor with battery frame]
-[link=https://www.youtube.com/watch?v=fO54vNBzYJA]
-image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
-// end::attr-co[]
-
-
 1.1.3 Attach the remaining battery holder onto the two servo motors+battery holder.
 
+link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video tutorial]
 
-
+// [link=https://www.youtube.com/watch?v=fO54vNBzYJA]
+// image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
 === Step 2. Assemble mid body
 
@@ -119,6 +114,13 @@ image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 2.1.5 Cut the excess wires of the resistor
 
 
+link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video tutorial]
+
+// [link=https://www.youtube.com/watch?v=rjXC5D6XPjs]
+// image::https://img.youtube.com/vi/rjXC5D6XPjs/0.jpg[320,240]
+
+
+
 ==== Step 2.2 Solder capacitors
 [cols="a,a"]
 |====
@@ -138,125 +140,186 @@ image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
 2.2.4 Cut the excess wires
 
+link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video tutorial]
+// [link=https://www.youtube.com/watch?v=cCtYnakYGAE]
+// image::https://img.youtube.com/vi/cCtYnakYGAE/0.jpg[320,240]
 
 
-==== Step 2.3 Solder LEDs
+==== Step 2.3 Solder pinhead for battery connection
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0699.JPG[320,240] | image::IMG_0700.JPG[320,240]
+|====
+
+*Instructions*
+
+link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video tutorial]
+// [link=https://www.youtube.com/watch?v=MrHjogbX79M]
+// image::https://img.youtube.com/vi/MrHjogbX79M/0.jpg[320,240]
+
+
+==== Step 2.4 Solder LEDs
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0701.JPG[320,240] | image::IMG_0703.JPG[320,240]
 |====
 
-2.3.1 Insert LEDs
+*Instructions*
 
-2.3.2 Pull the wire and bend it.
+2.4.1 Insert LEDs
 
-2.3.3 Solder
+2.4.2 Pull the wire and bend it.
 
-2.3.4 Cut the excess wires
+2.4.3 Solder
 
+2.4.4 Cut the excess wires
 
-==== Step 2.4 Solder pinhead sockets
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0706.JPG[320,240] | image::IMG_0708.JPG[320,240]
-|====
-
-2.4.1 Insert pinhead sockets
-
-2.4.2 Solder
+link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video tutorial]
 
 ==== Step 2.5 Solder tatile switch and slide switch
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
-|====
-
-2.4.1 Insert tatile switch
-
-2.4.2 Solder
-
-2.4.3 Insert slid switch
-
-2.4.4 Pull the wire and bend it.
-
-2.4.5 Solder
-
-2.4.6 Cut the excess wires
-
-==== Step 2.5 Solder pinhead
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
-|====
-
-2.5.1 Insert pinhead
-
-2.5.2 Solder
-
-
-==== Step 2.6 Solder potentiometer
-
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0704.JPG[320,240] | image::IMG_0705.JPG[320,240]
 |====
 
-2.6.1 Bend the potentiometer
+*Instructions*
 
-2.6.2 Insert potentiometer
+2.5.1 Insert tatile switch
 
-2.6.3 Pull the wire and bend it.
+2.5.2 Solder
 
-2.6.4 Solder
+2.5.3 Insert slid switch
 
-2.6.5 Cut the excess wires
+2.5.4 Pull the wire and bend it.
 
-==== Step 2.7 Label the potentiometer
+2.5.5 Solder
+
+2.5.6 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video tutorial]
+
+
+==== Step 2.6 Solder pinhead sockets for arduino
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0706.JPG[320,240] | image::IMG_0708.JPG[320,240]
+|====
+
+*Instructions*
+
+2.6.1 Insert pinhead sockets
+
+2.6.2 Solder
+
+link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video tutorial]
+
+
+==== Step 2.7 Solder pinhead for servo motors
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
+|====
+
+*Instructions*
+
+2.7.1 Insert pinhead
+
+2.7.2 Solder
+
+link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video tutorial]
+
+
+
+==== Step 2.8 Prepare and solder potentiometer
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0716.JPG[320,240] | image::IMG_0719.JPG[320,240]
+|====
+
+*Instructions*
+
+2.8.1 Bend the potentiometer
+
+2.8.2 Insert potentiometer
+
+2.8.3 Pull the wire and bend it.
+
+2.8.4 Solder
+
+2.8.5 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
+
+
+
+==== Step 2.9 Label the potentiometer
+
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
-==== Step 2.8 Solder cable for ultersonic sensr
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::TEST.JPG[320,240] | image::TEST.JPG[320,240]
+|====
+
+*Instructions*
+
+// link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
+
+
+==== Step 2.10 Solder cable for ultersonic sensr
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0730.JPG[320,240] | image::IMG_0733.JPG[320,240]
 |====
 
-2.8.1 Cut the cable
+*Instructions*
 
-2.8.2 Cut the skin of the cable
+2.10.1 Cut the cable
 
-2.8.3 Solder the raw cable to the PCB Board
+2.10.2 Cut the skin of the cable
+
+2.10.3 Solder the raw cable to the PCB Board
+
+link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
 
-==== Step 3.1 Attach arduino to SO(2)-walker board
+==== Step 3.1 Solder pinhead to ardriono board
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0720.JPG[320,240] | image::IMG_0722.JPG[320,240]
 |====
 
-Attach arduino to SO(2)-walker board.
+*Instructions*
 
-You should care direction of arduino.
-
-image:!direction of arduino[]
+link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video tutorial]
 
 
 
 === Step 4. Integrate mid-body with upper-body
+
+==== Step 4.1 Attach upper-body to the mid-body
+
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0735.JPG[320,240] | image::IMG_0736.JPG[320,240]
 |====
 
-==== Step 4.1 Add battery to the frame
+*Instructions*
+
+link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
+
 
 ==== Step 4.2 Attach the SO(2)-walker board and Arduino to the frame
 
