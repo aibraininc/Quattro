@@ -150,6 +150,15 @@ image:!servo_motor_image_angle_180.png[]
 | image::IMG_0701.JPG[320,240] | image::IMG_0703.JPG[320,240]
 |====
 
+2.3.1 Insert LEDs
+
+2.3.2 Pull the wire and bend it.
+
+2.3.3 Solder
+
+2.3.4 Cut the excess wires
+
+
 ==== Step 2.4 Solder pinhead sockets
 [cols="a,a"]
 |====
@@ -157,22 +166,42 @@ image:!servo_motor_image_angle_180.png[]
 | image::IMG_0706.JPG[320,240] | image::IMG_0708.JPG[320,240]
 |====
 
-==== Step 2.5 Solder tatile switch
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
-|====
-==== Step 2.6 Solder slide switch
+2.4.1 Insert pinhead sockets
 
-==== Step 2.7 Solder pinhead
+2.4.2 Solder
+
+==== Step 2.5 Solder tatile switch and slide switch
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
 |====
 
-==== Step 2.8 Solder potentiometer
+2.4.1 Insert tatile switch
+
+2.4.2 Solder
+
+2.4.3 Insert slid switch
+
+2.4.4 Pull the wire and bend it.
+
+2.4.5 Solder
+
+2.4.6 Cut the excess wires
+
+==== Step 2.5 Solder pinhead
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
+|====
+
+2.5.1 Insert pinhead
+
+2.5.2 Solder
+
+
+==== Step 2.6 Solder potentiometer
 
 [cols="a,a"]
 |====
@@ -180,32 +209,31 @@ image:!servo_motor_image_angle_180.png[]
 | image::IMG_0704.JPG[320,240] | image::IMG_0705.JPG[320,240]
 |====
 
-==== Step 2.9 Solder cable for ultersonic sensr
+2.6.1 Bend the potentiometer
+
+2.6.2 Insert potentiometer
+
+2.6.3 Pull the wire and bend it.
+
+2.6.4 Solder
+
+2.6.5 Cut the excess wires
+
+==== Step 2.7 Label the potentiometer
+Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
+
+==== Step 2.8 Solder cable for ultersonic sensr
 [cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0730.JPG[320,240] | image::IMG_0733.JPG[320,240]
 |====
 
-==== Step 2.1 Solder electronic part to PCB
-A printed circuit board (PCB) mechanically supports and electrically connects electronic components.
-Components are generally soldered onto the PCB to both electrically connect and mechanically fasten them to it.
-Intro soldering
+2.8.1 Cut the cable
 
-- Insert the parts (LED, switch, Potentiometer)
-- You can place the solder into the tip of the soldering iron
+2.8.2 Cut the skin of the cable
 
-
-==== Step 2.2 Insert knobs
-Insert knobs to potentiometer.
-
-Potentiometer is a sensor that is common in our daily lives.
-Potentiometers are used to control sound, velocity or frequency.
-For example, you can control the intensity of the light or the volume of sound using a Potentiometer.
-We will use this sensor to control the phase, frequency, and amplitude of the robot.
-
-==== Step 2.3 Label the potentiometer
-Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
+2.8.3 Solder the raw cable to the PCB Board
 
 === Step 3. Assemble upperbody
 
