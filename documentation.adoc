@@ -99,7 +99,9 @@ image:!servo_motor_image_angle_180.png[]
 
 
 === Step 2. Assemble mid body
+
 *Tools*:
+
 ==== Step 2.1 Solder resistors
 [cols="a,a"]
 |====
