@@ -9,11 +9,8 @@ _This is Quattro manual. Following these steps will enable you to build your Qua
 
 [cols="a,a"]
 |====
-<<<<<<< HEAD
 | image:aseembly_kit.png[320,240] | image:aseembly_kit.png[320,240]
-=======
 | image::before_assembly.png[before-assembly-image] | image::after_assembly.png[after-assembly-image]
->>>>>>> 3e5c396e4e61055ca26720ec8326c58221139530
 |====
 
 
@@ -86,11 +83,11 @@ Tools: Glue gun
 Suggestion: motor axis are aligned 45-90 deg to each other
 When you attach motors with frame, you should care following.
 
-
-
-image:!servo_motor_image_angle_90.png[]
-
-image:!servo_motor_image_angle_180.png[]
+video::fO54vNBzYJA[youtube]
+link:https://www.youtube.com/watch?v=fO54vNBzYJA[Step 1.1 Attach servo motor with battery frame]
+[link=https://www.youtube.com/watch?v=fO54vNBzYJA]
+image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
+// end::attr-co[]
 
 
 1.1.3 Attach the remaining battery holder onto the two servo motors+battery holder.
