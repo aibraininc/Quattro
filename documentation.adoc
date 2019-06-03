@@ -91,7 +91,7 @@ image:!servo_motor_image_angle_180.png[]
 
 ==== Step 2.7 Solder pinhead
 
-==== Step 2.8 Solder potentiometer 
+==== Step 2.8 Solder potentiometer
 
 
 
@@ -125,11 +125,6 @@ You should care direction of arduino.
 
 image:!direction of arduino[]
 
-==== Step 3.2 Attach the servo motor cable
-
-You should care direction of motor cable.
-
-image:!direction of motor cable[]
 
 
 === Step 4. Integrate mid-body with upper-body
@@ -153,6 +148,14 @@ image:!connection between sensor and board []
 
 
 === Step 5. Integrate mid-body+upper-body with lower body
+
+==== Step 5.1 Attach the battery cable to PCB
+
+==== Step 5.1 Attach the servo motor cable
+
+You should care direction of motor cable.
+
+image:!direction of motor cable[]
 
 ==== Step 5.1 Build robot legs
 
