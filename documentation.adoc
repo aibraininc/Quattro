@@ -60,7 +60,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 Tools: Glue gun
 
 ==== Step 1.1 Attach servo motor with battery frame
-*Components*: 2x servo motors, 2x battery holder
+*Components* : 2x servo motors, 2x battery holder
 
 [cols="a,a"]
 |====
@@ -80,7 +80,7 @@ Tools: Glue gun
 
 * The angles of the two motor axes are important.
 
-Suggestion: motor axis are aligned 45-90 deg to each other
+* Suggestion: motor axis are aligned 45-90 deg to each other
 When you attach motors with frame, you should care following.
 
 1.1.3 Attach the remaining battery holder onto the two servo motors+battery holder.
@@ -95,6 +95,9 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 *Tools*:
 
 ==== Step 2.1 Solder resistors
+
+*Components* : PCB board, 2x resistors
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -122,6 +125,9 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 
 ==== Step 2.2 Solder capacitors
+
+*Components* : PCB board, 2x capacitors
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -146,6 +152,9 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 
 
 ==== Step 2.3 Solder pinhead for battery connection
+
+*Components* : PCB board, 1x pinhead
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -167,6 +176,9 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 
 
 ==== Step 2.4 Solder LEDs
+
+*Components* : PCB board, 2x LED
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -187,7 +199,10 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 
 link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video tutorial]
 
-==== Step 2.5 Solder tatile switch and slide switch
+==== Step 2.5 Solder tactile switch and slide switch
+
+*Components* : PCB board, tactile switch, slide switch
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -212,6 +227,9 @@ link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video t
 
 
 ==== Step 2.6 Solder pinhead sockets for arduino
+
+*Components* : PCB board, 2x pinhead sockets
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -227,7 +245,10 @@ link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video t
 link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video tutorial]
 
 
-==== Step 2.7 Solder pinhead for servo motors
+==== Step 2.7 Solder pinhead for servo motors and ultra sonic sensor
+
+*Components* : PCB board, 4x Solder pinhead
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -245,6 +266,8 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 
 
 ==== Step 2.8 Prepare and solder potentiometer
+
+*Components* : PCB board, 4x potentiometer
 
 [cols="a,a"]
 |====
@@ -270,6 +293,8 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 ==== Step 2.9 Label the potentiometer #TODO
 
+*Components* : PCB board, 4x labels
+
 Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
 
 [cols="a,a"]
@@ -284,6 +309,9 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 
 
 ==== Step 2.10 Solder cable for ultersonic sensr
+
+*Components* : PCB board, cable
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -303,6 +331,9 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 === Step 3. Assemble upperbody
 
 ==== Step 3.1 Solder pinhead to arduino board
+
+*Components* : arduino board, 2x pinhead
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -320,6 +351,8 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 === Step 4. Integrate mid-body with upper-body
 
 ==== Step 4.1 Attach upper-body to the mid-body
+
+*Components* : upper-body, mid-body
 
 [cols="a,a"]
 |====
@@ -345,8 +378,6 @@ link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video t
 | image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
 |====
 
-*Instructions*
-
 4.2.1 connect battery with PCB board
 
 * you should check plus and minus
@@ -366,6 +397,9 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 *Instructions*
 
 ==== Step 4.4 Attach ultrasonic sensor cable to PCB board #TODO
+
+*Components* : mid-body+upper-body, lower-body
+
 [cols="a,a"]
 |====
 | *Before* | *After*
