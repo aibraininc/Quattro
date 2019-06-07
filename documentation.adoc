@@ -291,7 +291,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 
-==== Step 2.9 Label the potentiometer
+==== Step 2.9 Label the potentiometer #TODO
 
 *Components* : PCB board, 4x labels
 
@@ -371,26 +371,32 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video tutorial]
 
 
-==== Step 4.2 Attach the SO(2)-walker board and Arduino to the frame
+==== Step 4.2 Attach the cables that connect battery to PCB board
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
+|====
+
+4.2.1 connect battery with PCB board
+
+* you should check plus and minus
+
+* a hole with the letter 'GND' is minus
+
+link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
 
 
-It is body of robot.
+==== Step 4.3 Attach the servo motor cable to PCB board #TODO
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
+|====
 
-image:! before attach board and arduino[]
+*Instructions*
 
-image:! robot body[]]
-
-==== Step 4.3 Attach ultrasonic sensor cable to SO(2)-walker board
-
-Ultrasonic sesnor has 4 pin (vcc,gnd,trig,echo).
-You should connect those pint to SO(2)-walker board.
-
-image:!connection between sensor and board []
-
-
-=== Step 5. Integrate mid-body+upper-body with lower body
-
-==== Step 5.1 Attach the cables that connect battery to PCB Board
+==== Step 4.4 Attach ultrasonic sensor cable to PCB board #TODO
 
 *Components* : mid-body+upper-body, lower-body
 
@@ -402,23 +408,31 @@ image:!connection between sensor and board []
 
 *Instructions*
 
-5.1.1 connect battery with PCB board
+==== Step 4.5 Check robot works well #TODO
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
+|====
 
-* you should check plus and minus
-
-* a hole with the letter 'GND' is minus
-
-link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
+*Instructions*
 
 
 
-==== Step 5.2 Attach the servo motor cable
 
-You should care direction of motor cable.
+=== Step 5. Integrate mid-body+upper-body with lower body
 
-image:!direction of motor cable[]
 
-==== Step 5.3 Build robot legs
+==== Step 5.1 Attach the PCB board and Arduino to the frame #TODO
+
+It is body of robot.
+
+image:! before attach board and arduino[]
+
+image:! robot body[]]
+
+
+==== Step 5.2 Build robot legs #TODO
 
 You can build robot legs with legos and any stuff you want
 
