@@ -291,7 +291,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 
-==== Step 2.9 Label the potentiometer #TODO
+==== Step 2.9 Label the potentiometer #TODO add youtube
 
 *Components* : PCB board, 4x labels
 
@@ -300,7 +300,7 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::TEST.JPG[320,240] | image::TEST.JPG[320,240]
+| image::IMG_0766.JPG[320,240] | image::IMG_0767.JPG[320,240]
 |====
 
 *Instructions*
@@ -403,17 +403,12 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
+| image::IMG_0769.JPG[320,240] | image::IMG_0771.JPG[320,240]
 |====
 
 *Instructions*
 
 ==== Step 4.5 Check robot works well #TODO
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
-|====
 
 *Instructions*
 
@@ -423,7 +418,23 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 === Step 5. Integrate mid-body+upper-body with lower body
 
 
-==== Step 5.1 Attach the PCB board and Arduino to the frame #TODO
+==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0772.JPG[320,240] | image::IMG_0773.JPG[320,240]
+|====
+
+
+==== Step 5.2 Attach servo horns to servomotor #TODO
+|====
+| *Before* | *After*
+| image::IMG_0774.JPG[320,240] | image::IMG_0775.JPG[320,240]
+|====
+
+==== Step 5.2 Attach servo horns  #TODO
+
+
 
 It is body of robot.
 
