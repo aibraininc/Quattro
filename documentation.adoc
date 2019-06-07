@@ -428,6 +428,8 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 
 
 ==== Step 5.2 Attach servo horns to servomotor #TODO
+
+[cols="a,a"]
 |====
 | *Before* | *After*
 | image::IMG_0774.JPG[320,240] | image::IMG_0775.JPG[320,240]
