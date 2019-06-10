@@ -37,6 +37,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 | 4  | AA 1.5V battery
 | 1  | Arduino-nano-compatible board
 | 1  | SO(2)-walker board
+| 4  | Socket cable
 2+| *Electronic parts*
 | 2  | Servomotor
 | 1  | Ultrasonic sensor
@@ -211,7 +212,7 @@ link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video t
 
 *Instructions*
 
-2.5.1 Insert tatile switch
+2.5.1 Insert tactile switch
 
 2.5.2 Solder
 
@@ -295,7 +296,12 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 *Components* : PCB board, 4x labels
 
-Attach label the potentiometer. There are four potentiometers. The potentiometers adjust phase, frequency, amplitude of the robot.
+*Instructions*
+
+2.9.1. Attach label the potentiometer.
+
+  * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
+
 
 [cols="a,a"]
 |====
@@ -310,7 +316,7 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 
 ==== Step 2.10 Solder cable for ultersonic sensr
 
-*Components* : PCB board, cable
+*Components* : PCB board, socket cable
 
 [cols="a,a"]
 |====
@@ -329,6 +335,8 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
+
+*Tools*:
 
 ==== Step 3.1 Solder pinhead to arduino board
 
@@ -350,6 +358,8 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 === Step 4. Integrate mid-body with upper-body
 
+*Tools*:
+
 ==== Step 4.1 Attach upper-body to the mid-body
 
 *Components* : upper-body, mid-body
@@ -365,13 +375,16 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 4.1.1 attach upper-body(arduino) to mid-body
 
 * You should care direction of arduino.
-* The USB terminal of the Arduino is in the same direction as the tatile switch.
+* The USB terminal of the Arduino is in the same direction as the tactile switch.
 
 
 link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video tutorial]
 
 
 ==== Step 4.2 Attach the cables that connect battery to PCB board
+
+*Components* : mid-body+upper-body, lower-body
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -387,7 +400,10 @@ link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video t
 link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
 
 
-==== Step 4.3 Attach the servo motor cable to PCB board #TODO
+==== Step 4.3 Attach the servo motor cable to PCB board
+
+*Components* : mid-body+upper-body, lower-body
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -396,9 +412,21 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 
 *Instructions*
 
+4.3.1 Attach the servo motor cable to PCB board
+
+* brown color in servo motor cable is GND pin.
+* Plug the motor cable in the direction of the tactile switch.
+
+4.3.2 Check that the motor is operating.
+
+* If the motor rotates in the opposite direction, change the position of the motor cables.
+
+link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video tutorial]
+
+
 ==== Step 4.4 Attach ultrasonic sensor cable to PCB board #TODO
 
-*Components* : mid-body+upper-body, lower-body
+*Components* : 3x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
 
 [cols="a,a"]
 |====
@@ -408,15 +436,24 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 
 *Instructions*
 
+4.4.1 Attach the ultra sensor cable to PCB board
+
+link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video tutorial]
+
+
 ==== Step 4.5 Check robot works well #TODO
+
+*Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
 
 *Instructions*
 
 
+link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video tutorial]
 
 
 === Step 5. Integrate mid-body+upper-body with lower body
 
+*Tools*: Glue gun
 
 ==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
 
@@ -425,6 +462,12 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 | *Before* | *After*
 | image::IMG_0772.JPG[320,240] | image::IMG_0773.JPG[320,240]
 |====
+
+*Instructions*
+
+5.1.1 attach mid-body+upper-body with lower body using the glue gun.
+
+link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video tutorial]
 
 
 ==== Step 5.2 Attach servo horns to servomotor #TODO
@@ -435,18 +478,13 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 | image::IMG_0774.JPG[320,240] | image::IMG_0775.JPG[320,240]
 |====
 
-==== Step 5.2 Attach servo horns  #TODO
+
+*Instructions*
+
+link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
 
 
-
-It is body of robot.
-
-image:! before attach board and arduino[]
-
-image:! robot body[]]
-
-
-==== Step 5.2 Build robot legs #TODO
+==== Step 5.3 Build robot legs #TODO
 
 You can build robot legs with legos and any stuff you want
 
