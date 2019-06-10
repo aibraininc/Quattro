@@ -371,8 +371,6 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 2+| image::IMG_0782.JPG[320,240]
 |====
 
-*Tools*:
-
 ==== Step 3.1 Solder pinhead to arduino board
 
 *Components* : arduino board, 2x pinhead
@@ -508,6 +506,8 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 
 ==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
 
+*Components:* mid-body+upper-body, lower-body
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -523,6 +523,8 @@ link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video t
 
 ==== Step 5.2 Attach servo horns to servomotor #TODO
 
+*Components:* mid-body+upper-body+lower-body, 2x servo horns
+
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -531,6 +533,13 @@ link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video t
 
 
 *Instructions*
+
+5.2.1 Attach the servo horns on to each servo motor
+
+* Servo horns are used to attach legs
+
+* Servo horns will have to be adjusted so that it is at the middle
+
 
 link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
 
