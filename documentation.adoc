@@ -59,12 +59,12 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 == Assembly
 
 === Step 1. Assemble lower body
-Tools: Glue gun #TODO
+*Overview*:
 
 [cols="a,a"]
 |====
 2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+| Glue gun | image::IMG_0665.JPG[320,240]
 |====
 
 ==== Step 1.1 Attach servo motor with battery frame
@@ -99,12 +99,13 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 // image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
 === Step 2. Assemble mid body
+*Overview*:
 
 *Tools*: #TODO
 [cols="a,a"]
 |====
 2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+| Soldering iron, solder, glue, scissors, wire stripper, snipper, long nose piler | image::IMG_0781.JPG[320,240]
 |====
 
 
@@ -353,11 +354,13 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
+
+*Overview:*
 #TODO
 [cols="a,a"]
 |====
 2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+| Soldering iron, solder | image::IMG_0782.JPG[320,240]
 |====
 
 ==== Step 3.1 Solder pinhead to arduino board
@@ -380,11 +383,8 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 === Step 4. Integrate mid-body with upper-body
 #TODO
-[cols="a,a"]
-|====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
-|====
+
+*Overview:*
 
 ==== Step 4.1 Attach upper-body to the mid-body
 
@@ -452,11 +452,13 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 
 
 === Step 5. Integrate mid-body+upper-body with lower body
-#TODO 
+
+*Overview:*
+#TODO
 [cols="a,a"]
 |====
 2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+| Glue gun  | image::IMG_0780.JPG[320,240]
 |====
 
 
