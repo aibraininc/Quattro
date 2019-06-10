@@ -79,7 +79,7 @@ The angle of the motors will decide how Quattro will walk. It is up to you to de
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.png[320,240]
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
 |====
 
 *Instruction*:
