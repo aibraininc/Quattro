@@ -79,7 +79,7 @@ The angle of the motors will decide how Quattro will walk. It is up to you to de
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG_0663.JPG[320,240] | image::quattro-2.png[320,240]
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
 |====
 
 *Instruction*:
@@ -483,6 +483,18 @@ link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video t
 *Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
 
 *Instructions*
+
+4.5.1 Turn on robot and check leds that twinkle
+
+4.5.2 Click switch and adjust potentiometers
+
+4.5.3 Check motor works
+
+* You can check motor speed or range changed, while adjusting potentiometers
+
+4.5.4. Check ultrasonic sensor works
+
+* You can check motor that work and stop, while hand is close to sensor or not.
 
 
 link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video tutorial]
