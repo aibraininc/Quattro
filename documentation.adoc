@@ -7,6 +7,8 @@ v0.1, 2019-03-28
 _This is Quattro manual. Following these steps will enable you to build your Quattro from the assembly kit. We encourage everybody to contribute to this project. Please share your ideas, upgrades, schematics, source-code and tricks._
 
 
+#TODO
+
 [cols="a,a"]
 |====
 | image:aseembly_kit.png[320,240] | image:aseembly_kit.png[320,240]
@@ -57,7 +59,13 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 == Assembly
 
 === Step 1. Assemble lower body
-Tools: Glue gun
+Tools: Glue gun #TODO
+
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
 
 ==== Step 1.1 Attach servo motor with battery frame
 *Components* : 2x servo motors, 2x battery holder
@@ -92,7 +100,13 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 
 === Step 2. Assemble mid body
 
-*Tools*:
+*Tools*: #TODO
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
+
 
 ==== Step 2.1 Solder resistors
 
@@ -154,6 +168,16 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 ==== Step 2.3 Solder pinhead for battery connection
 
 *Components* : PCB board, 1x pinhead
+
+#TODO
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
+
+
+
 
 [cols="a,a"]
 |====
@@ -329,6 +353,12 @@ Attach label the potentiometer. There are four potentiometers. The potentiometer
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
+#TODO
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
 
 ==== Step 3.1 Solder pinhead to arduino board
 
@@ -349,6 +379,12 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 
 === Step 4. Integrate mid-body with upper-body
+#TODO
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
 
 ==== Step 4.1 Attach upper-body to the mid-body
 
@@ -416,6 +452,12 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 
 
 === Step 5. Integrate mid-body+upper-body with lower body
+#TODO 
+[cols="a,a"]
+|====
+2+| *Tools*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
 
 
 ==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
