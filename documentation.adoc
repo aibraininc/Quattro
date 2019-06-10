@@ -11,8 +11,7 @@ _This is Quattro manual. Following these steps will enable you to build your Qua
 
 [cols="a,a"]
 |====
-| image:aseembly_kit.png[320,240] | image:aseembly_kit.png[320,240]
-| image::before_assembly.png[before-assembly-image] | image::after_assembly.png[after-assembly-image]
+| image:aseembly_kit.png[320,240] | image:quattro-2.PNG[320,240]
 |====
 
 
@@ -30,7 +29,7 @@ You will need these tools to assemble the Quattro robot.
 
 === Quattro Assembly Kit Parts
 
-image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
+image:QuattroComponents.png[640,480]
 
 [cols=2*]
 |===
@@ -66,7 +65,7 @@ The angle of the motors will decide how Quattro will walk. It is up to you to de
 [cols="a,a"]
 |====
 2+| *Tools*: glue gun
-2+|  image::IMG_0665.JPG[320,240]
+2+| image::IMG_0780.JPG[320,240]
 |====
 
 ==== Step 1.1 Attach servo motor with battery frame
