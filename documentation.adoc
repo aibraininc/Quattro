@@ -359,7 +359,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 2.10.2 Cut the skin of the cable
 
-2.10.3 Solder the raw cable to 5V of the PCB Board  
+2.10.3 Solder the raw cable to 5V of the PCB Board
 
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
