@@ -365,8 +365,8 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 #TODO
 [cols="a,a"]
 |====
-2+| *Tools*
-| Soldering iron, solder | image::IMG_0782.JPG[320,240]
+2+| *Tools*: Soldering iron, solder
+2+| image::IMG_0782.JPG[320,240]
 |====
 
 *Tools*:
