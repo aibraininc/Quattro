@@ -1,4 +1,4 @@
-``= Quattro Assembly Documentation
+= Quattro Assembly Documentation
 Doc Writer <kubisch@informatik.hu-berlin.de>
 v0.1, 2019-03-28
 :imagesdir: ./images
