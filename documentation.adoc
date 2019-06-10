@@ -449,7 +449,6 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 |====
 | *Before* | *After*
 | image::IMG_0768.JPG[320,240] | image::IMG_0791.JPG[320,240]
-| image::ultrasonic-line.png[320,240]
 |====
 
 *Instructions*
@@ -474,6 +473,7 @@ link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video t
 |====
 | *Before* | *After*
 | image::IMG_0769.JPG[320,240] | image::IMG_0771.JPG[320,240]
+2+|  image::ultrasonic-line.png[320,240]
 |====
 
 *Instructions*
