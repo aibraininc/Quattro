@@ -494,7 +494,7 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 [cols="a,a"]
 |====
 2+| *Tools*
-| Glue gun  | image::IMG_0780.JPG[320,240]
+| <ul><li>item1</li><li>item2</li></ul>  | image::IMG_0780.JPG[320,240]
 |====
 
 ==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
