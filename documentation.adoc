@@ -26,6 +26,11 @@ You will need these tools to assemble the Quattro robot.
 
 * Glue gun
 * Soldering iron & Solder
+* Long nose plier
+* Glue
+* Snipper
+* Scissors
+* Cable stripper
 * Household material for robot legs (ex: legos, chopsticks)
 
 === Quattro Assembly Kit Parts
@@ -38,7 +43,7 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 | 2  | Battery holder socket
 | 4  | AA 1.5V battery
 | 1  | Arduino-nano-compatible board
-| 1  | SO(2)-walker board
+| 1  | PCB Board
 | 4  | Socket cable
 2+| *Electronic parts*
 | 2  | Servomotor
