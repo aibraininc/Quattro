@@ -112,7 +112,6 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 *Overview*: We will be attaching various electronic components to the PCB board. The slide switch is used to turn on/off the robot.
 The tactile switch is used to command the robot to function. Potentiometers are used to tune the parameters of the robot.
 
-*Tools*: #TODO
 [cols="a,a"]
 |====
 2+| *Tools*: Soldering iron, solder, glue, scissors, wire stripper, snipper, long nose piler
@@ -132,7 +131,7 @@ The tactile switch is used to command the robot to function. Potentiometers are 
 
 *Instructions*
 
-2.1.1 Insert the resistors
+2.1.1 Insert the resistors to R1, R2
 
 2.1.2 Pull the wires of the resistors using a piler
 
@@ -162,9 +161,14 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 *Instructions*
 
-2.2.1 Insert capacitors
+2.2.1 Insert capacitors to C1, C2
 
 * Long wire is the plus and the hole with the letter is plus
+
+* Larger capacitor goes to C1
+
+* Smaller capacitor goes to C2
+
 
 2.2.2 Pull the wire for both capacitor and for the big capacitor bend it.
 
@@ -181,16 +185,6 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 
 *Components* : PCB board, 1x pinhead
 
-#TODO
-[cols="a,a"]
-|====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
-|====
-
-
-
-
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -199,7 +193,7 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 
 *Instructions*
 
-2.3.1 Insert a pinhead
+2.3.1 Insert a pinhead to BAT
 
 2.3.2 Solder the pinhead
 
@@ -223,7 +217,7 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 
 *Instructions*
 
-2.4.1 Insert LEDs
+2.4.1 Insert LEDs to D1 D2
 
 2.4.2 Pull the wire and bend it.
 
@@ -251,7 +245,7 @@ link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video t
 
 2.5.2 Solder
 
-2.5.3 Insert slid switch
+2.5.3 Insert slide switch
 
 2.5.4 Pull the wire and bend it.
 
@@ -293,7 +287,7 @@ link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video t
 
 *Instructions*
 
-2.7.1 Insert pinhead
+2.7.1 Insert pinhead to M1, M2, M3, M4
 
 2.7.2 Solder
 
@@ -315,7 +309,7 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 
 2.8.1 Bend the potentiometer
 
-2.8.2 Insert potentiometer
+2.8.2 Insert potentiometer to the inner part of P1, P2, P3, P4
 
 2.8.3 Pull the wire and bend it.
 
@@ -349,7 +343,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
 
-==== Step 2.10 Solder cable for ultersonic sensr
+==== Step 2.10 Solder cable for ultrasonic sensor
 
 *Components* : PCB board, socket cable
 
@@ -365,7 +359,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 2.10.2 Cut the skin of the cable
 
-2.10.3 Solder the raw cable to the PCB Board
+2.10.3 Solder the raw cable to 5V of the PCB Board  
 
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
