@@ -60,12 +60,13 @@ image:aseembly_kit_labeling.png[aseembly_kit_labeling_image]
 == Assembly
 
 === Step 1. Assemble lower body
-Tools: Glue gun #TODO
+*Overview*: The lower body contains the power supply of Quattro. It also has the motors that is connected to the legs of Quattro.
+The angle of the motors will decide how Quattro will walk. It is up to you to decide what angle the motors should be attached.
 
 [cols="a,a"]
 |====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+2+| *Tools*: glue gun
+2+|  image::IMG_0665.JPG[320,240]
 |====
 
 ==== Step 1.1 Attach servo motor with battery frame
@@ -100,12 +101,14 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 // image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
 === Step 2. Assemble mid body
+*Overview*: We will be attaching various electronic components to the PCB board. The slide switch is used to turn on/off the robot.
+The tactile switch is used to command the robot to function. Potentiometers are used to tune the parameters of the robot.
 
 *Tools*: #TODO
 [cols="a,a"]
 |====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+2+| *Tools*: Soldering iron, solder, glue, scissors, wire stripper, snipper, long nose piler
+2+| image::IMG_0781.JPG[320,240]
 |====
 
 
@@ -359,11 +362,13 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
-#TODO
+
+*Overview:* We will be getting the arduino board ready to be attached to the mid-body. You can think arduino board as the brain of the robot.
+
 [cols="a,a"]
 |====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+2+| *Tools*: Soldering iron, solder
+2+| image::IMG_0782.JPG[320,240]
 |====
 
 *Tools*:
@@ -387,14 +392,8 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 
 === Step 4. Integrate mid-body with upper-body
-#TODO
-[cols="a,a"]
-|====
-2+| *Tools*
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
-|====
 
-*Tools*:
+*Overview:* We will be connecting the mid-body with the upper-body.
 
 ==== Step 4.1 Attach upper-body to the mid-body
 
@@ -498,11 +497,13 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 
 
 === Step 5. Integrate mid-body+upper-body with lower body
-#TODO
+
+*Overview:* Connecting to the power supply and the motors. The potentiometers can be used to decide how the motors function.
+
 [cols="a,a"]
 |====
-2+| *Tools* : glue gun, household material for robot legs
-| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+2+| *Tools* : Glue gun
+2+| image::IMG_0780.JPG[320,240]
 |====
 
 ==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
