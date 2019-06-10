@@ -57,11 +57,15 @@ image:QuattroComponents.png[640,480]
 | 1  | Tactile switch
 | 1  | capacitor 100nF
 | 1  | capacitor 100uF
-
-
 |===
 
 == Assembly
+
+=== Step 0. Overview
+
+image:partsexplanation.png[640,480]
+
+The assembly will be divided into three major parts: lower-body, mid-body, upper-body.
 
 === Step 1. Assemble lower body
 *Overview*: The lower body contains the power supply of Quattro. It also has the motors that is connected to the legs of Quattro.
