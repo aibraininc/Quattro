@@ -7,7 +7,6 @@ v0.1, 2019-03-28
 _This is Quattro manual. Following these steps will enable you to build your Quattro from the assembly kit. We encourage everybody to contribute to this project. Please share your ideas, upgrades, schematics, source-code and tricks._
 
 
-#TODO
 
 [cols="a,a"]
 |====
