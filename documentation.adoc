@@ -321,7 +321,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 
-==== Step 2.9 Label the potentiometer #TODO add youtube
+==== Step 2.9 Label the potentiometer 
 
 *Components* : PCB board, 4x labels
 
@@ -459,7 +459,7 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video tutorial]
 
 
-==== Step 4.4 Attach ultrasonic sensor cable to PCB board #TODO
+==== Step 4.4 Attach ultrasonic sensor cable to PCB board 
 
 *Components* : 3x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
 
@@ -477,7 +477,7 @@ link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video t
 link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video tutorial]
 
 
-==== Step 4.5 Check robot works well #TODO
+==== Step 4.5 Check robot works well 
 
 *Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
 
@@ -516,7 +516,7 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 2+| image::IMG_0780.JPG[320,240]
 |====
 
-==== Step 5.1 Attach mid-body+upper-body with lower body #TODO
+==== Step 5.1 Attach mid-body+upper-body with lower body 
 
 *Components:* mid-body+upper-body, lower-body
 
@@ -533,7 +533,7 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video tutorial]
 
 
-==== Step 5.2 Attach servo horns to servomotor #TODO
+==== Step 5.2 Attach servo horns to servomotor
 
 *Components:* mid-body+upper-body+lower-body, 2x servo horns
 
@@ -556,7 +556,7 @@ link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video t
 link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
 
 
-==== Step 5.3 Build robot legs #TODO
+==== Step 5.3 Build robot legs 
 
 You can build robot legs with legos and any stuff you want
 
