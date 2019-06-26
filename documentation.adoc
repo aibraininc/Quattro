@@ -177,7 +177,7 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 [cols="a,a"]
 |====
-| image::insert_electrolytic_cap.jpg[320,240] | The large capacitor must be laid on its side since the nano board will be mounted above it.
+| image::insert_electrolytic_cap.jpg[160,120] | The large capacitor must be laid on its side since the nano board will be mounted above it.
 |====
 
 2.2.2 Pull the wire for both capacitor and for the big capacitor bend it.
@@ -325,6 +325,13 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 
 2.8.1 Bend the potentiometer
 
+[cols="a,a"]
+|====
+| image::IMG_1045.JPG[160,120] | Bend the wire on the sides inwards. Bend the three pins outward 
+|====
+
+
+
 2.8.2 Insert potentiometer to the inner part of P1, P2, P3, P4
 
 2.8.3 Pull the wire and bend it.
@@ -341,13 +348,6 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 *Components* : PCB board, 4x labels
 
-*Instructions*
-
-2.9.1. Attach label the potentiometer.
-
-  * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
-
-
 [cols="a,a"]
 |====
 | *Before* | *After*
@@ -355,6 +355,11 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 |====
 
 *Instructions*
+
+2.9.1. Attach label the potentiometer.
+
+  * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
+
 
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
