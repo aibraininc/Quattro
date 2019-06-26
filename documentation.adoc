@@ -378,7 +378,6 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 
 [cols="a,a"]
 |====
-| *Before* | *After*
 | image::IMG_0720.JPG[320,240] | image::IMG_0722.JPG[320,240]
 |====
 
