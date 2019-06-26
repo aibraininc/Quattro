@@ -133,7 +133,7 @@ The tactile switch is used to command the robot to function. Potentiometers are 
 2.1.1 Insert the resistors to R1, R2
 [cols="a,a"]
 |====
-| image::insert_resistor.jpg[320,240] | Insert resistors as depecited and printed as R1 and R2 on the board’s silk screen
+| image::insert_resistor.jpg[160,120] | Insert resistors as depecited and printed as R1 and R2 on the board’s silk screen
 |====
 
 2.1.2 Pull the wires of the resistors using a piler
