@@ -145,7 +145,7 @@ The tactile switch is used to command the robot to function. Potentiometers are 
 2.1.5 Cut the excess wires of the resistor
 [cols="a,a"]
 |====
-| image::solder_resistors_and_cut_wire.jpg[320,240] | Trim the leads after soldering using the side-cutting pliers.
+| image::solder_resistors_and_cut_wire.jpg[160,120] | Trim the leads after soldering using the side-cutting pliers.
 |====
 
 link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video tutorial]
@@ -177,7 +177,7 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 [cols="a,a"]
 |====
-| image::insert_electrolytic_cap.jpg[320,240] | Insert the ceramic capacitor first as it has a lower profile. Again, make sure that the capacitor is soldered very close to the board. The capacitor must be laid on its side since the nano board will be mounted above it.
+| image::insert_electrolytic_cap.jpg[320,240] | The large capacitor must be laid on its side since the nano board will be mounted above it.
 |====
 
 2.2.2 Pull the wire for both capacitor and for the big capacitor bend it.
@@ -259,7 +259,7 @@ link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video t
 
 [cols="a,a"]
 |====
-| image::insert_slide_switch.jpg[320,240] | Insert slide switch
+| image::insert_slide_switch.jpg[160,120] | Insert slide switch
 |====
 
 
@@ -404,7 +404,7 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 3.1.1 solder pinhead to arduino board
 [cols="a,a"]
 |====
-| image::insert_pinheader.jpg[320,240] | The pinheader should be inserted in the bottom of the ardunio board
+| image::insert_pinheader.jpg[160,120] | The pinheader should be inserted in the bottom of the ardunio board
 |====
 
 link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video tutorial]
