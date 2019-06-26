@@ -385,6 +385,11 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 *Instructions*
 
 3.1.1 solder pinhead to arduino board
+[cols="a,a"]
+|====
+| *Image* | *Explanation*
+| image::insert_pinheader.jpg[320,240] | The pinheader should be inserted in the bottom of the ardunio board
+|====
 
 link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video tutorial]
 
