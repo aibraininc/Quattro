@@ -1,0 +1,592 @@
+= Quattro Assembly Documentation
+Doc Writer <kubisch@informatik.hu-berlin.de>
+v0.1, 2019-03-28
+:imagesdir: ./images
+:toc:
+
+_This is Quattro manual. Following these steps will enable you to build your Quattro from the assembly kit. We encourage everybody to contribute to this project. Please share your ideas, upgrades, schematics, source-code and tricks._
+
+
+
+[cols="a,a"]
+|====
+| image:aseembly_kit.png[320,240] | image:quattro-2.PNG[320,240]
+|====
+
+
+== Tool and Part List
+NOTE: Before starting the assembly. Check that you have all the tools and parts in place. We recommend to read this manual once before starting the assembly.
+
+WARNING: Self-manufacturing of the parts is encouraged but can not be officially supported and hence is to your own risk. If you decide to manufacture your own parts then tolerances may vary depending on the machines and methods you are using.
+
+=== Recommended Tools
+You will need these tools to assemble the Quattro robot.
+
+* Glue gun
+* Soldering iron & Solder
+* Long nose plier
+* Glue
+* Snipper
+* Scissors
+* Cable stripper
+* Household material for robot legs (ex: legos, chopsticks)
+
+=== Quattro Assembly Kit Parts
+
+image:QuattroComponents.png[640,480]
+
+[cols=2*]
+|===
+2+| *Assembly kit parts*
+| 2  | Battery holder socket
+| 4  | AA 1.5V battery
+| 1  | Arduino-nano-compatible board
+| 1  | PCB Board
+| 4  | Socket cable
+2+| *Electronic parts*
+| 2  | Servomotor
+| 1  | Ultrasonic sensor
+| 2  | 15x1 pin header socket
+| 4  | 3x1 pin header
+| 4  | 10K potentiometer
+| 4  | poti knob
+| 2  | Resistor 1k
+| 2  | LED
+| 1  | Slide switch
+| 1  | Tactile switch
+| 1  | capacitor 100nF
+| 1  | capacitor 100uF
+|===
+
+== Assembly
+
+=== Step 0. Overview
+
+image:partsexplanation.png[640,480]
+
+The assembly will be divided into three major parts: lower-body, mid-body, upper-body.
+
+=== Step 1. Assemble lower body
+*Overview*: The lower body contains the power supply of Quattro. It also has the motors that is connected to the legs of Quattro.
+The angle of the motors will decide how Quattro will walk. It is up to you to decide what angle the motors should be attached.
+
+[cols="a,a"]
+|====
+2+| *Tools*: glue gun
+2+|  image::IMG_0780.JPG[320,240]
+|====
+
+==== Step 1.1 Attach servo motor with battery frame
+*Components* : 2x servo motors, 2x battery holder
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
+|====
+
+*Instruction*:
+
+1.1.1 place one battery holder in front of you.
+
+1.1.2 On that battery holder, attach two servo motors using the glue gun.
+
+* The label of the servo motor should point to the upper part of the robot.
+
+* The cable should be on the left.
+
+* The angles of the two motor axes are important.
+
+* Suggestion: motor axis are aligned 45-90 deg to each other
+When you attach motors with frame, you should care following.
+
+1.1.3 Attach the remaining battery holder onto the two servo motors+battery holder.
+
+link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video tutorial]
+
+// [link=https://www.youtube.com/watch?v=fO54vNBzYJA]
+// image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
+
+=== Step 2. Assemble mid body
+*Overview*: We will be attaching various electronic components to the PCB board. The slide switch is used to turn on/off the robot.
+The tactile switch is used to command the robot to function. Potentiometers are used to tune the parameters of the robot.
+
+[cols="a,a"]
+|====
+2+| *Tools*: Soldering iron, solder, glue, scissors, wire stripper, snipper, long nose piler
+2+| image::IMG_0781.JPG[320,240]
+|====
+
+
+==== Step 2.1 Solder resistors
+
+*Components* : PCB board, 2x resistors
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0671.JPG[320,240] | image::IMG_0689.JPG[320,240]
+|====
+
+*Instructions*
+
+2.1.1 Insert the resistors to R1, R2
+[cols="a,a"]
+|====
+| image::insert_resistor.jpg[160,120] | Insert resistors as depecited and printed as R1 and R2 on the board’s silk screen
+|====
+
+2.1.2 Pull the wires of the resistors using a piler
+
+2.1.3 Bend the wires of the resistors so that they are fixed onto the PCB keyboard
+
+2.1.4 Solder the resistors
+
+2.1.5 Cut the excess wires of the resistor
+[cols="a,a"]
+|====
+| image::solder_resistors_and_cut_wire.jpg[160,120] | Trim the leads after soldering using the side-cutting pliers.
+|====
+
+link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video tutorial]
+
+// [link=https://www.youtube.com/watch?v=rjXC5D6XPjs]
+// image::https://img.youtube.com/vi/rjXC5D6XPjs/0.jpg[320,240]
+
+
+
+==== Step 2.2 Solder capacitors
+
+*Components* : PCB board, 2x capacitors
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0690.JPG[320,240] | image::IMG_0693.JPG[320,240]
+|====
+
+*Instructions*
+
+2.2.1 Insert capacitors to C1, C2
+
+* Long wire is the plus and the hole with the letter is plus
+
+* Larger capacitor goes to C1
+
+* Smaller capacitor goes to C2
+
+[cols="a,a"]
+|====
+| image::insert_electrolytic_cap.jpg[160,120] | The large capacitor must be laid on its side since the nano board will be mounted above it.
+|====
+
+2.2.2 Pull the wire for both capacitor and for the big capacitor bend it.
+
+2.2.3 Solder the capacitors
+
+2.2.4 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video tutorial]
+// [link=https://www.youtube.com/watch?v=cCtYnakYGAE]
+// image::https://img.youtube.com/vi/cCtYnakYGAE/0.jpg[320,240]
+
+
+==== Step 2.3 Solder pinhead for battery connection
+
+*Components* : PCB board, 1x pinhead
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0699.JPG[320,240] | image::IMG_0700.JPG[320,240]
+|====
+
+*Instructions*
+
+2.3.1 Insert a pinhead to BAT
+
+2.3.2 Solder the pinhead
+
+2.3.3 bend the pinhead
+
+
+link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video tutorial]
+// [link=https://www.youtube.com/watch?v=MrHjogbX79M]
+// image::https://img.youtube.com/vi/MrHjogbX79M/0.jpg[320,240]
+
+
+==== Step 2.4 Solder LEDs
+
+*Components* : PCB board, 2x LED
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0701.JPG[320,240] | image::IMG_0703.JPG[320,240]
+|====
+
+*Instructions*
+
+2.4.1 Insert LEDs to D1 D2
+
+2.4.2 Pull the wire and bend it.
+
+* Long wire is the plus
+
+2.4.3 Solder it
+
+2.4.4 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video tutorial]
+
+==== Step 2.5 Solder tactile switch and slide switch
+
+*Components* : PCB board, tactile switch, slide switch
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0704.JPG[320,240] | image::IMG_0705.JPG[320,240]
+|====
+
+*Instructions*
+
+2.5.1 Insert tactile switch
+
+2.5.2 Solder
+
+2.5.3 Insert slide switch
+
+[cols="a,a"]
+|====
+| image::insert_slide_switch.jpg[160,120] | Insert slide switch
+|====
+
+
+2.5.4 Pull the wire and bend it.
+
+2.5.5 Solder
+
+2.5.6 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video tutorial]
+
+
+==== Step 2.6 Solder pinhead sockets for arduino
+
+*Components* : PCB board, 2x pinhead sockets
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0706.JPG[320,240] | image::IMG_0708.JPG[320,240]
+|====
+
+*Instructions*
+
+2.6.1 Insert pinhead sockets
+
+2.6.2 Solder
+
+link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video tutorial]
+
+
+==== Step 2.7 Solder pinhead for servo motors and ultra sonic sensor
+
+*Components* : PCB board, 4x Solder pinhead
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
+|====
+
+*Instructions*
+
+2.7.1 Insert pinhead to M1, M2, M3, M4
+
+2.7.2 Solder
+
+link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video tutorial]
+
+
+
+==== Step 2.8 Prepare and solder potentiometer
+
+*Components* : PCB board, 4x potentiometer
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0716.JPG[320,240] | image::IMG_0719.JPG[320,240]
+|====
+
+*Instructions*
+
+2.8.1 Bend the potentiometer
+
+[cols="a,a"]
+|====
+| image::IMG_1045.JPG[160,120] | Bend the wire on the sides inwards. Bend the three pins outward 
+|====
+
+
+
+2.8.2 Insert potentiometer to the inner part of P1, P2, P3, P4
+
+2.8.3 Pull the wire and bend it.
+
+2.8.4 Solder
+
+2.8.5 Cut the excess wires
+
+link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
+
+
+
+==== Step 2.9 Label the potentiometer 
+
+*Components* : PCB board, 4x labels
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0766.JPG[320,240] | image::IMG_0767.JPG[320,240]
+|====
+
+*Instructions*
+
+2.9.1. Attach label the potentiometer.
+
+  * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
+
+
+// link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
+
+
+==== Step 2.10 Solder cable for ultrasonic sensor
+
+*Components* : PCB board, socket cable
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0730.JPG[320,240] | image::IMG_0733.JPG[320,240]
+|====
+
+*Instructions*
+
+2.10.1 Cut the cable
+
+2.10.2 Cut the skin of the cable
+
+2.10.3 Solder the raw cable to 5V of the PCB Board
+
+link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
+
+=== Step 3. Assemble upperbody
+
+*Overview:* We will be getting the arduino board ready to be attached to the mid-body. You can think arduino board as the brain of the robot.
+
+[cols="a,a"]
+|====
+2+| *Tools*: Soldering iron, solder
+2+| image::IMG_0782.JPG[320,240]
+|====
+
+==== Step 3.1 Solder pinhead to arduino board
+
+*Components* : arduino board, 2x pinhead
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0720.JPG[320,240] | image::IMG_0722.JPG[320,240]
+|====
+
+*Instructions*
+
+3.1.1 solder pinhead to arduino board
+[cols="a,a"]
+|====
+| image::insert_pinheader.jpg[160,120] | The pinheader should be inserted in the bottom of the ardunio board
+|====
+
+link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video tutorial]
+
+
+
+=== Step 4. Integrate mid-body with upper-body
+
+*Overview:* We will be connecting the mid-body with the upper-body.
+
+==== Step 4.1 Attach upper-body to the mid-body
+
+*Components* : upper-body, mid-body
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0735.JPG[320,240] | image::IMG_0736.JPG[320,240]
+|====
+
+*Instructions*
+
+4.1.1 attach upper-body(arduino) to mid-body
+
+* You should care direction of arduino.
+* The USB terminal of the Arduino is in the same direction as the tactile switch.
+
+
+link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video tutorial]
+
+
+==== Step 4.2 Attach the cables that connect battery to PCB board
+
+*Components* : mid-body+upper-body, lower-body
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
+|====
+
+4.2.1 connect battery with PCB board
+
+* you should check plus and minus
+
+* a hole with the letter 'GND' is minus
+
+link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
+
+
+==== Step 4.3 Attach the servo motor cable to PCB board
+
+*Components* : mid-body+upper-body, lower-body
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0768.JPG[320,240] | image::IMG_0791.JPG[320,240]
+|====
+
+*Instructions*
+
+4.3.1 Attach the servo motor cable to PCB board
+
+* brown color in servo motor cable is GND pin.
+* Plug the motor cable in the direction of the tactile switch.
+
+4.3.2 Check that the motor is operating.
+
+* If the motor rotates in the opposite direction, change the position of the motor cables.
+
+link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video tutorial]
+
+
+==== Step 4.4 Attach ultrasonic sensor cable to PCB board 
+
+*Components* : 3x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0769.JPG[320,240] | image::IMG_0771.JPG[320,240]
+2+|  image::ultrasonic-line.png[320,240]
+|====
+
+*Instructions*
+
+4.4.1 Attach the ultra sensor cable to PCB board
+
+link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video tutorial]
+
+
+==== Step 4.5 Check robot works well 
+
+*Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
+
+*Instructions*
+
+4.5.1 Turn on robot and check leds that twinkle
+
+4.5.2 Click switch and adjust potentiometers
+
+4.5.3 Check motor works
+
+* You can check motor speed or range changed, while adjusting potentiometers
+
+* AMP: How much the robot leg moves
+
+* Frq: Frequency of the movement, leg moves slow or fast
+
+* PHS: Phase shift of the movement, how asynchronous the robot moves 
+
+
+4.5.4. Check ultrasonic sensor works
+
+* You can check motor that work and stop, while hand is close to sensor or not.
+
+
+link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video tutorial]
+
+
+=== Step 5. Integrate mid-body+upper-body with lower body
+
+*Overview:* Connecting to the power supply and the motors. The potentiometers can be used to decide how the motors function.
+
+[cols="a,a"]
+|====
+2+| *Tools* : Glue gun
+2+| image::IMG_0780.JPG[320,240]
+|====
+
+==== Step 5.1 Attach mid-body+upper-body with lower body 
+
+*Components:* mid-body+upper-body, lower-body
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0772.JPG[320,240] | image::IMG_0773.JPG[320,240]
+|====
+
+*Instructions*
+
+5.1.1 attach mid-body+upper-body with lower body using the glue gun.
+
+link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video tutorial]
+
+
+==== Step 5.2 Attach servo horns to servomotor
+
+*Components:* mid-body+upper-body+lower-body, 2x servo horns
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG_0774.JPG[320,240] | image::IMG_0775.JPG[320,240]
+|====
+
+
+*Instructions*
+
+5.2.1 Attach the servo horns on to each servo motor
+
+* Servo horns are used to attach legs
+
+* Servo horns will have to be adjusted so that it is at the middle
+
+
+link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
+
+
+==== Step 5.3 Build robot legs 
+
+You can build robot legs with legos and any stuff you want
+
+[cols="a,a"]
+|====
+| image::quattro-1.jpg[320,240] | image::quattro-2.PNG[320,240]
+| image::quattro-3.jpg[320,240] | image::quattro-4.png[320,240]
+|====
