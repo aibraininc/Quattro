@@ -309,7 +309,7 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 
 
 
-==== Step 2.8 Prepare and solder potentiometer
+==== Schritt 2.8 Prepare and solder potentiometer
 
 *Components* : PCB board, 4x potentiometer
 
@@ -342,7 +342,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 
-==== Step 2.9 Label the potentiometer
+==== Schritt 2.9 Label the potentiometer
 
 *Components* : PCB board, 4x labels
 
