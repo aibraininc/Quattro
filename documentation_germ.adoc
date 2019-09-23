@@ -60,13 +60,13 @@ image:QuattroComponents.png[640,480]
 
 == Assembly
 
-=== Step 0. Montage
+=== Schritt 0. Montage
 
 image:partsexplanation.png[640,480]
 
 Quattro wird in drei Hauptteile unterteilt: Unterkörper, Mittelkörper, Oberkörper.
 
-=== Step 1. Unterkörper zusammenbauen
+=== Schritt 1. Unterkörper zusammenbauen
 *Übersicht*: Im Unterkörper befindet sich die Stromversorgung von Quattro, wie auch die Motoren, die mit den Beinen von Quattro verbunden sind. Der Winkel der Motoren bestimmt, wie der Quattro läuft. Du entscheidest, in welchem Winkel die Motoren angebracht werden sollen.
 
 [cols="a,a"]
@@ -75,7 +75,7 @@ Quattro wird in drei Hauptteile unterteilt: Unterkörper, Mittelkörper, Oberkö
 2+|  image::IMG_0780.JPG[320,240]
 |====
 
-==== Step 1.1 Servomotor mit Batteriehalter befestigen
+==== Schritt 1.1 Servomotor mit Batteriehalter befestigen
 *Komponenten* : 2x Servomotoren, 2x Batteriehalter
 
 [cols="a,a"]
@@ -106,7 +106,7 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 // [link=https://www.youtube.com/watch?v=fO54vNBzYJA]
 // image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
-=== Step 2. Baue den Mittelkörper zusammen
+=== Schritt 2. Baue den Mittelkörper zusammen
 *Überblick*: Wir werden verschiedene elektronische Komponenten auf der Leiterplatte anbringen. Der Schiebeschalter dient zum Ein- und Ausschalten des Roboters. Der Tastschalter wird verwendet, um dem Roboter zum Laufen zu bringen. Mit den Rädchen werden die Parameter des Roboters eingestellt.
 
 [cols="a,a"]
@@ -116,7 +116,7 @@ link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video t
 |====
 
 
-==== Step 2.1 Lötwiderstände
+==== Schritt 2.1 Lötwiderstände
 
 *Komponenten* : Leiterplatte, 2x Widerstände
 
@@ -153,7 +153,7 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 
 
-==== Step 2.2 Kondensatoren anlöten
+==== Schritt 2.2 Kondensatoren anlöten
 
 *Komponenten* : Leiterplatte, 2x Kondensatoren
 
@@ -189,7 +189,7 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 // image::https://img.youtube.com/vi/cCtYnakYGAE/0.jpg[320,240]
 
 
-==== Step 2.3 Löten der Pin Heads für Batterieanschluss
+==== Schritt 2.3 Löten der Pin Heads für Batterieanschluss
 
 *Komponenten* : Leiterplatte, 1x Pinhead
 
@@ -213,7 +213,7 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 // image::https://img.youtube.com/vi/MrHjogbX79M/0.jpg[320,240]
 
 
-==== Step 2.4 LEDs anlöten
+==== Schritt 2.4 LEDs anlöten
 
 *Komponenten* : Leiterplatte, 2x LED
 
@@ -237,7 +237,7 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 
 link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video tutorial]
 
-==== Step 2.5 Tastschalter und Schiebeschalter einlöten
+==== Schritt 2.5 Tastschalter und Schiebeschalter einlöten
 
 *Komponenten* : Leiterplatte, Tastschalter, Schiebeschalter
 
@@ -270,7 +270,7 @@ link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video t
 link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video tutorial]
 
 
-==== Step 2.6 Pinhead-Buchsen für Arduino löten
+==== Schritt 2.6 Pinhead-Buchsen für Arduino löten
 
 *Komponenten* : Leiterplatte, 2x Stiftleisten
 
@@ -289,9 +289,9 @@ link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video t
 link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video tutorial]
 
 
-==== Step 2.7 Löten der Pinheads für Servomotoren und Ultraschallsensor
+==== Schritt 2.7 Löten der Pinheads für Servomotoren und Ultraschallsensor
 
-*Components* : PCB board, 4x Solder pinhead
+*Komponenten* : Leiterplatte, 4x Pinhead
 
 [cols="a,a"]
 |====
@@ -299,19 +299,19 @@ link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video t
 | image::IMG_0713.JPG[320,240] | image::IMG_0714.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.7.1 Insert pinhead to M1, M2, M3, M4
+2.7.1 Pinhead auf M1, M2, M3, M4 stecken
 
-2.7.2 Solder
+2.7.2 Löten
 
 link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video tutorial]
 
 
 
-==== Schritt 2.8 Prepare and solder potentiometer
+==== Schritt 2.8 Rädchen vorbereiten und einlöten
 
-*Components* : PCB board, 4x potentiometer
+*Komponenten* : Leiterplatte, 4x Potentiometer
 
 [cols="a,a"]
 |====
@@ -319,32 +319,32 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 | image::IMG_0716.JPG[320,240] | image::IMG_0719.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.8.1 Bend the potentiometer
+2.8.1 Biege das Rädchen
 
 [cols="a,a"]
 |====
-| image::IMG_1045.JPG[160,120] | Bend the wire on the sides inwards. Bend the three pins outward
+| image::IMG_1045.JPG[160,120] | Biege die Kabel an der Seite nach innen. Biege die drei Pins nach aussen
 |====
 
 
 
-2.8.2 Insert potentiometer to the inner part of P1, P2, P3, P4
+2.8.2 Stecke das Potentiometer in den inneren Teil von P1, P2, P3, P4
 
-2.8.3 Pull the wire and bend it.
+2.8.3 Am Draht ziehen und biegen.
 
-2.8.4 Solder
+2.8.4 Löten
 
-2.8.5 Cut the excess wires
+2.8.5 Überstehende Drähte abschneiden
 
 link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
 
 
-==== Schritt 2.9 Label the potentiometer
+==== Schritt 2.9 Beschrifte das Potentiometer
 
-*Components* : PCB board, 4x labels
+*Komponenten* : Leiterplatte, 4x Etiketten
 
 [cols="a,a"]
 |====
@@ -352,19 +352,19 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 | image::IMG_0766.JPG[320,240] | image::IMG_0767.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.9.1. Attach label the potentiometer.
+2.9.1. Beschrifte die Rädchen.
 
-  * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
+  * Es gibt vier Rädchen (Phase, Frequenz, Amplitude des Roboters links und rechts).
 
 
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
 
-==== Step 2.10 Solder cable for ultrasonic sensor
+==== Schritt 2.10 Löten der Kabel für den Ultraschallsensor
 
-*Components* : PCB board, socket cable
+*Komponenten* : Leiterplatte, Buchsenkabel
 
 [cols="a,a"]
 |====
@@ -372,29 +372,29 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 | image::IMG_0730.JPG[320,240] | image::IMG_0733.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.10.1 Cut the cable
+2.10.1 Kabel abschneiden
 
-2.10.2 Cut the skin of the cable
+2.10.2 Die Aussenhülle des Kabels isolieren
 
-2.10.3 Solder the raw cable to 5V of the PCB Board
+2.10.3 Löte das Rohkabel auf den Anschluss 5 V der Leiterplatte
 
 link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
-=== Step 3. Assemble upperbody
+=== Schritt 3. Oberkörper zusammenbauen
 
-*Overview:* We will be getting the arduino board ready to be attached to the mid-body. You can think arduino board as the brain of the robot.
+*Überblick:* Wir werden das Arduino-Board so ausrichten, dass es an der Mitte des Körpers befestigt werden kann. Du kannst Dir das Arduino Board als das Gehirn des Roboters vorstellen.
 
 [cols="a,a"]
 |====
-2+| *Tools*: Soldering iron, solder
+2+| *Werkzeuge*: Lötkolben, Lot
 2+| image::IMG_0782.JPG[320,240]
 |====
 
-==== Step 3.1 Solder pinhead to arduino board
+==== Schritt 3.1 Pinhead auf Arduino Board löten
 
-*Components* : arduino board, 2x pinhead
+*Komponenten* : Arduino Board, 2x Pinhead
 
 [cols="a,a"]
 |====
@@ -402,9 +402,9 @@ link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video t
 | image::IMG_0720.JPG[320,240] | image::IMG_0722.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-3.1.1 solder pinhead to arduino board
+3.1.1 Pinhead an Arduino Board anlöten
 [cols="a,a"]
 |====
 | image::insert_pinheader.jpg[160,120] | The pinheader should be inserted in the bottom of the ardunio board
@@ -414,13 +414,13 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 
 
 
-=== Step 4. Integrate mid-body with upper-body
+=== Schritt 4. Zusammenfügen des Mittelkörpers mit dem Oberkörper
 
-*Overview:* We will be connecting the mid-body with the upper-body.
+*Überblick:* Wir verbinden den Mittelkörper mit dem Oberkörper.
 
-==== Step 4.1 Attach upper-body to the mid-body
+==== Schritt 4.1 Befestige den Oberkörper an der Mitte des Körpers
 
-*Components* : upper-body, mid-body
+*Komponenten* : Oberkörper, Mittelkörper
 
 [cols="a,a"]
 |====
@@ -428,20 +428,20 @@ link:https://www.youtube.com/watch?v=pTLMlNVG2Kk[click here to watch the video t
 | image::IMG_0735.JPG[320,240] | image::IMG_0736.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-4.1.1 attach upper-body(arduino) to mid-body
+4.1.1 Befestige den Oberkörper (Arduino) an der Mitte des Körpers
 
-* You should care direction of arduino.
-* The USB terminal of the Arduino is in the same direction as the tactile switch.
+* Sie sollten Richtung Arduino kümmern.
+* Der USB-Anschluss des Arduino weist in dieselbe Richtung wie der Tastschalter.
 
 
 link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video tutorial]
 
 
-==== Step 4.2 Attach the cables that connect battery to PCB board
+==== Schritt 4.2 Anschliessen der Kabel, mit denen die Batterie an die Leiterplatte angeschlossen wird
 
-*Components* : mid-body+upper-body, lower-body
+*Bestandteile* : Mittelkörper + Oberkörper, Unterkörper
 
 [cols="a,a"]
 |====
@@ -449,18 +449,18 @@ link:https://www.youtube.com/watch?v=xBNNMoUuqdc[click here to watch the video t
 | image::IMG_0737.JPG[320,240] | image::IMG_0738.JPG[320,240]
 |====
 
-4.2.1 connect battery with PCB board
+4.2.1 Batterie mit Platine verbinden
 
-* you should check plus and minus
+* Achte auf das Plus und Minus
 
-* a hole with the letter 'GND' is minus
+* Das Loch mit der Aufschrift 'GND' ist Minus
 
 link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video tutorial]
 
 
-==== Step 4.3 Attach the servo motor cable to PCB board
+==== Schritt 4.3 Befestigen des Servomotor-Kabels an der Leiterplatte
 
-*Components* : mid-body+upper-body, lower-body
+*Bestandteile* : Mittelkörper + Oberkörper, Unterkörper
 
 [cols="a,a"]
 |====
@@ -468,23 +468,23 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 | image::IMG_0768.JPG[320,240] | image::IMG_0791.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-4.3.1 Attach the servo motor cable to PCB board
+4.3.1 Befestige das Servomotor-Kabel an der Leiterplatte
 
-* brown color in servo motor cable is GND pin.
-* Plug the motor cable in the direction of the tactile switch.
+* Die braune Farbe des Servomotor-Kabels ist der GND-Pin.
+* Stecke das Motorkabel auf der Seite des Tastschalters (Oberseite) ein.
 
-4.3.2 Check that the motor is operating.
+4.3.2 Überprüfe, ob der Motor läuft.
 
-* If the motor rotates in the opposite direction, change the position of the motor cables.
+* Wenn sich der Motor in die entgegengesetzte Richtung dreht, tausche die Motorkabel.
 
 link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video tutorial]
 
 
-==== Step 4.4 Attach ultrasonic sensor cable to PCB board
+==== Schritt 4.4 Befestigen des Ultraschallsensor-Kabels an der Leiterplatte
 
-*Components* : 3x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
+*Komponenten* : 3x Buchsen-Kabel, Ultraschallsensor, Mittelkörper + Oberkörper, Unterkörper
 
 [cols="a,a"]
 |====
@@ -493,45 +493,45 @@ link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video t
 2+|  image::ultrasonic-line.png[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-4.4.1 Attach the ultra sensor cable to PCB board
+4.4.1 Schliesse das Ultraschallsensor-Kabels an die Leiterplatte an.
 
 link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video tutorial]
 
 
-==== Step 4.5 Check robot works well
+==== Schritt 4.5 Überprüfen, ob der Roboter ordnungsgemäß funktioniert
 
-*Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
+*Komponenten* : Ultraschallsensor, Mittelkörper + Oberkörper, Unterkörper
 
-*Instructions*
+*Anleitung*
 
-4.5.1 Turn on robot and check leds that twinkle
+4.5.1 Schalte den Roboter ein und überprüfe, ob die LEDs blinken
 
-4.5.2 Click switch and adjust potentiometers
+4.5.2 Klicke den Tastenschalter und spiele mit den Rädchen.
 
-4.5.3 Check motor works
+4.5.3 Überprüfe die Motorleistung
 
-* You can check motor speed or range changed, while adjusting potentiometers
+* Du kannst sehen, ob die Motordrehzahl oder der Bewegungsradius geändert wurde, während Du an den Rädchen drehst
 
-* AMP: How much the robot leg moves
+* AMP: Wie viel bewegt sich das Roboterbein?
 
-* Frq: Frequency of the movement, leg moves slow or fast
+* Frq: Frequenz der Bewegung, Bein bewegt sich langsam oder schnell
 
-* PHS: Phase shift of the movement, how asynchronous the robot moves
+* PHS: Phasenverschiebung der Bewegung, wie asynchron sich die Beine bewegen
 
 
-4.5.4. Check ultrasonic sensor works
+4.5.4. Überprüfe, ob der Ultraschallsensor funktioniert
 
-* You can check motor that work and stop, while hand is close to sensor or not.
+* Prüfe, ob der Motor funktioniert und anhält, wenn sich Deine Hand in der Nähe des Sensors befindet.
 
 
 link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video tutorial]
 
 
-=== Step 5. Integrate mid-body+upper-body with lower body
+=== Schritt 5. Verbinden des Mittelkörpers und des Oberkörpers mit dem Unterkörper
 
-*Overview:* Connecting to the power supply and the motors. The potentiometers can be used to decide how the motors function.
+*Übersicht:* Anschließen an die Stromversorgung und die Motoren. Über die Rädchen kann bestimmt werden, wie die Motoren funktionieren.
 
 [cols="a,a"]
 |====
@@ -539,9 +539,9 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 2+| image::IMG_0780.JPG[320,240]
 |====
 
-==== Step 5.1 Attach mid-body+upper-body with lower body
+==== Schritt 5.1 Befestigen des Mittelkörpers und des Oberkörpers mit dem Unterkörper
 
-*Components:* mid-body+upper-body, lower-body
+*Bestandteile:* Mittelkörper + Oberkörper, Unterkörper
 
 [cols="a,a"]
 |====
@@ -549,16 +549,16 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 | image::IMG_0772.JPG[320,240] | image::IMG_0773.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-5.1.1 attach mid-body+upper-body with lower body using the glue gun.
+5.1.1 Mit der Klebepistole den Mittelkörper und den Oberkörper mit dem Unterkörper verbinden.
 
 link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video tutorial]
 
 
-==== Step 5.2 Attach servo horns to servomotor
+==== Schritt 5.2 Befestigen der Servorädchen am Servomotor
 
-*Components:* mid-body+upper-body+lower-body, 2x servo horns
+*Komponenten:* Mittelkörper + Oberkörper + Unterkörper, 2x Servorädchen
 
 [cols="a,a"]
 |====
@@ -567,21 +567,21 @@ link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video t
 |====
 
 
-*Instructions*
+*Anleitung*
 
-5.2.1 Attach the servo horns on to each servo motor
+5.2.1 Bringe die Servorädchen an den beiden Servomotoren an
 
-* Servo horns are used to attach legs
+* Servoräder dienen zum Befestigen von Beinen
 
-* Servo horns will have to be adjusted so that it is at the middle
+* Servohupen müssen so eingestellt werden, dass sie in der Mitte sind
 
 
 link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
 
 
-==== Step 5.3 Build robot legs
+==== Schritt 5.3 Roboterbeine bauen
 
-You can build robot legs with legos and any stuff you want
+Du kannst Roboterbeine mit Legos und allem anderen was Du willst, bauen
 
 [cols="a,a"]
 |====
