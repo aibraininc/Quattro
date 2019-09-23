@@ -1,10 +1,10 @@
-= Quattro Assembly Documentation
+= Dokumentation zur Quattro-Montage
 Doc Writer <kubisch@informatik.hu-berlin.de>
 v0.1, 2019-03-28
 :imagesdir: ./images
 :toc:
 
-_This is Quattro manual. Following these steps will enable you to build your Quattro from the assembly kit. We encourage everybody to contribute to this project. Please share your ideas, upgrades, schematics, source-code and tricks._
+_Dies ist das Quattro Handbuch. Mit den folgenden Schritten kannst Du Deinen Quattro aus dem Bausatz zusammenstellen._
 
 
 
@@ -14,70 +14,69 @@ _This is Quattro manual. Following these steps will enable you to build your Qua
 |====
 
 
-== Tool and Part List
-NOTE: Before starting the assembly. Check that you have all the tools and parts in place. We recommend to read this manual once before starting the assembly.
+== Werkzeug- und Teileliste
+Hinweis: Vor dem Beginn der Montage: Stelle sicher, dass alle Werkzeuge und Teile vorhanden sind. Wir empfehlen, dieses Handbuch vor Beginn der Montage einmal zu lesen.
 
-WARNING: Self-manufacturing of the parts is encouraged but can not be officially supported and hence is to your own risk. If you decide to manufacture your own parts then tolerances may vary depending on the machines and methods you are using.
+Warnung: Die Eigenanfertigung von Teilen wird ermutigt, kann jedoch nicht offiziell unterstützt werden und erfolgt daher auf eigenes Risiko.
 
-=== Recommended Tools
-You will need these tools to assemble the Quattro robot.
+=== Empfohlene Werkzeuge
+Du benötigst diese Werkzeuge, um den Quattro-Roboter zusammenzubauen.
 
-* Glue gun
-* Soldering iron & Solder
-* Long nose plier
-* Glue
-* Snipper
-* Scissors
-* Cable stripper
-* Household material for robot legs (ex: legos, chopsticks)
+* Klebepistole
+* Lötkolben & Lot
+* Lange Nasenzange
+* Kleber
+* Schneidezange
+* Schere
+* Kabelabisolierer
+* Haushaltsmaterial für Roboterbeine (zB Legos, Essstäbchen)
+* 4 AA 1,5 V Batterien
 
-=== Quattro Assembly Kit Parts
+=== Teile des Quattro-Bausatzes
 
 image:QuattroComponents.png[640,480]
 
 [cols=2*]
 |===
-2+| *Assembly kit parts*
-| 2  | Battery holder socket
-| 4  | AA 1.5V battery
-| 1  | Arduino-nano-compatible board
-| 1  | PCB Board
-| 4  | Socket cable
-2+| *Electronic parts*
+2+| *Bausatzteile*
+| 2  | Batteriehalter-Buchse
+| 1  | Arduino-Nano-kompatibles Board
+| 1  | PCB-Board
+| 4  | Steckdosenkabel
+2+| *Elektronische Teile*
 | 2  | Servomotor
-| 1  | Ultrasonic sensor
-| 2  | 15x1 pin header socket
-| 4  | 3x1 pin header
-| 4  | 10K potentiometer
-| 4  | poti knob
-| 2  | Resistor 1k
+| 1  | Ultraschallsensor
+| 2  | 15x1 Pinhead Buchse
+| 4  | 3x1 Pinhead
+| 4  | 10K Rädchen
+| 4  | Poti-Knopf
+| 2  | Widerstand 1k
 | 2  | LED
-| 1  | Slide switch
-| 1  | Tactile switch
-| 1  | capacitor 100nF
-| 1  | capacitor 100uF
+| 1  | Schiebeschalter
+| 1  | Tastschalter
+| 1  | Kondensator 100nF
+| 1  | Kondensator 100uF
 |===
 
 == Assembly
 
-=== Step 0. Overview
+=== Step 0. Montage
 
 image:partsexplanation.png[640,480]
 
-The assembly will be divided into three major parts: lower-body, mid-body, upper-body.
+Quattro wird in drei Hauptteile unterteilt: Unterkörper, Mittelkörper, Oberkörper.
 
-=== Step 1. Assemble lower body
-*Overview*: The lower body contains the power supply of Quattro. It also has the motors that is connected to the legs of Quattro.
-The angle of the motors will decide how Quattro will walk. It is up to you to decide what angle the motors should be attached.
+=== Step 1. Unterkörper zusammenbauen
+*Übersicht*: Im Unterkörper befindet sich die Stromversorgung von Quattro, wie auch die Motoren, die mit den Beinen von Quattro verbunden sind. Der Winkel der Motoren bestimmt, wie der Quattro läuft. Du entscheidest, in welchem Winkel die Motoren angebracht werden sollen.
 
 [cols="a,a"]
 |====
-2+| *Tools*: glue gun
+2+| *Werkzeuge*: Klebepistole
 2+|  image::IMG_0780.JPG[320,240]
 |====
 
-==== Step 1.1 Attach servo motor with battery frame
-*Components* : 2x servo motors, 2x battery holder
+==== Step 1.1 Servomotor mit Batteriehalter befestigen
+*Komponenten* : 2x Servomotoren, 2x Batteriehalter
 
 [cols="a,a"]
 |====
@@ -85,42 +84,41 @@ The angle of the motors will decide how Quattro will walk. It is up to you to de
 | image::IMG_0663.JPG[320,240] | image::IMG_0665.JPG[320,240]
 |====
 
-*Instruction*:
+*Anweisung*:
 
-1.1.1 place one battery holder in front of you.
+1.1.1 Platziere einen Batteriehalter vor Dir.
 
-1.1.2 On that battery holder, attach two servo motors using the glue gun.
+1.1.2 Befestige an diesem Batteriehalter zwei Servomotoren mit der Klebepistole.
 
-* The label of the servo motor should point to the upper part of the robot.
+* Das Etikett des Servomotors sollte zum oberen Teil des Roboters zeigen.
 
-* The cable should be on the left.
+* Das Kabel sollte sich links befinden.
 
-* The angles of the two motor axes are important.
+* Die Winkel der beiden Motorachsen sind wichtig.
 
-* Suggestion: motor axis are aligned 45-90 deg to each other
-When you attach motors with frame, you should care following.
+* Vorschlag: Die Motorachsen sind um 45-90 Grad zueinander ausgerichtet. Wenn Sie Motoren mit Rahmen anbringen, sollten Sie Folgendes beachten.
 
-1.1.3 Attach the remaining battery holder onto the two servo motors+battery holder.
+
+1.1.3 Befestige den verbleibenden Batteriehalter an den beiden Servomotoren + Batteriehalter.
 
 link:https://www.youtube.com/watch?v=fO54vNBzYJA[click here to watch the video tutorial]
 
 // [link=https://www.youtube.com/watch?v=fO54vNBzYJA]
 // image::https://img.youtube.com/vi/fO54vNBzYJA/0.jpg[320,240]
 
-=== Step 2. Assemble mid body
-*Overview*: We will be attaching various electronic components to the PCB board. The slide switch is used to turn on/off the robot.
-The tactile switch is used to command the robot to function. Potentiometers are used to tune the parameters of the robot.
+=== Step 2. Baue den Mittelkörper zusammen
+*Überblick*: Wir werden verschiedene elektronische Komponenten auf der Leiterplatte anbringen. Der Schiebeschalter dient zum Ein- und Ausschalten des Roboters. Der Tastschalter wird verwendet, um dem Roboter zum Laufen zu bringen. Mit den Rädchen werden die Parameter des Roboters eingestellt.
 
 [cols="a,a"]
 |====
-2+| *Tools*: Soldering iron, solder, glue, scissors, wire stripper, snipper, long nose piler
+2+| *Werkzeuge*: Lötkolben, Lötzinn, Kleber, Schere, Abisolierzange, Schneidezange, Spitzzange
 2+| image::IMG_0781.JPG[320,240]
 |====
 
 
-==== Step 2.1 Solder resistors
+==== Step 2.1 Lötwiderstände
 
-*Components* : PCB board, 2x resistors
+*Komponenten* : Leiterplatte, 2x Widerstände
 
 [cols="a,a"]
 |====
@@ -128,24 +126,24 @@ The tactile switch is used to command the robot to function. Potentiometers are 
 | image::IMG_0671.JPG[320,240] | image::IMG_0689.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.1.1 Insert the resistors to R1, R2
+2.1.1 Stecke die Widerstände in R1, R2
 [cols="a,a"]
 |====
-| image::insert_resistor.jpg[160,120] | Insert resistors as depecited and printed as R1 and R2 on the board’s silk screen
+| image::insert_resistor.jpg[160,120] | Stecke die Widerstände wie im Bild bei R1 und R2 auf der Vorderseite der Platine ein.
 |====
 
-2.1.2 Pull the wires of the resistors using a piler
+2.1.2 Ziehe an den Drähten mithilfe einer Zange, bis die Widerstände eng an der Platine anliegen
 
-2.1.3 Bend the wires of the resistors so that they are fixed onto the PCB keyboard
+2.1.3 Biegen die Drähte der Widerstände so, dass sie auf der Platine befestigt sind
 
-2.1.4 Solder the resistors
+2.1.4 Löte die Widerstände
 
-2.1.5 Cut the excess wires of the resistor
+2.1.5 Schneide die überschüssigen Drähte des Widerstands ab
 [cols="a,a"]
 |====
-| image::solder_resistors_and_cut_wire.jpg[160,120] | Trim the leads after soldering using the side-cutting pliers.
+| image::solder_resistors_and_cut_wire.jpg[160,120] | Schneide die Kabel nach dem Löten mit der Schneidezange ab.
 |====
 
 link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video tutorial]
@@ -155,9 +153,9 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 
 
 
-==== Step 2.2 Solder capacitors
+==== Step 2.2 Kondensatoren anlöten
 
-*Components* : PCB board, 2x capacitors
+*Komponenten* : Leiterplatte, 2x Kondensatoren
 
 [cols="a,a"]
 |====
@@ -165,35 +163,35 @@ link:https://www.youtube.com/watch?v=rjXC5D6XPjs[click here to watch the video t
 | image::IMG_0690.JPG[320,240] | image::IMG_0693.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.2.1 Insert capacitors to C1, C2
+2.2.1 Kondensatoren an C1, C2 anschließen
 
-* Long wire is the plus and the hole with the letter is plus
+* Der lange Draht ist das Plus und ebenfalls das Loch auf der Platine mit dem Buchstaben ist das Plus
 
-* Larger capacitor goes to C1
+* Größerer Kondensator geht an C1
 
-* Smaller capacitor goes to C2
+* Kleinerer Kondensator geht an C2
 
 [cols="a,a"]
 |====
-| image::insert_electrolytic_cap.jpg[160,120] | The large capacitor must be laid on its side since the nano board will be mounted above it.
+| image::insert_electrolytic_cap.jpg[160,120] | Der große Kondensator muss auf die Seite gelegt werden, da die Nano-Platine darüber montiert wird.
 |====
 
-2.2.2 Pull the wire for both capacitor and for the big capacitor bend it.
+2.2.2 Ziehe den Draht für beide Kondensatoren und biege ihn für den großen Kondensator.
 
-2.2.3 Solder the capacitors
+2.2.3 Löte die Kondensatoren
 
-2.2.4 Cut the excess wires
+2.2.4 Schneide überstehende Drähte ab
 
 link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video tutorial]
 // [link=https://www.youtube.com/watch?v=cCtYnakYGAE]
 // image::https://img.youtube.com/vi/cCtYnakYGAE/0.jpg[320,240]
 
 
-==== Step 2.3 Solder pinhead for battery connection
+==== Step 2.3 Löten der Pin Heads für Batterieanschluss
 
-*Components* : PCB board, 1x pinhead
+*Komponenten* : Leiterplatte, 1x Pinhead
 
 [cols="a,a"]
 |====
@@ -201,13 +199,13 @@ link:https://www.youtube.com/watch?v=cCtYnakYGAE[click here to watch the video t
 | image::IMG_0699.JPG[320,240] | image::IMG_0700.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.3.1 Insert a pinhead to BAT
+2.3.1 Pinhead in den Anschluss BAT einziehen
 
-2.3.2 Solder the pinhead
+2.3.2 Pinhead anlöten
 
-2.3.3 bend the pinhead
+2.3.3 Pinhead biegen
 
 
 link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video tutorial]
@@ -215,9 +213,9 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 // image::https://img.youtube.com/vi/MrHjogbX79M/0.jpg[320,240]
 
 
-==== Step 2.4 Solder LEDs
+==== Step 2.4 LEDs anlöten
 
-*Components* : PCB board, 2x LED
+*Komponenten* : Leiterplatte, 2x LED
 
 [cols="a,a"]
 |====
@@ -225,23 +223,23 @@ link:https://www.youtube.com/watch?v=MrHjogbX79M[click here to watch the video t
 | image::IMG_0701.JPG[320,240] | image::IMG_0703.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.4.1 Insert LEDs to D1 D2
+2.4.1 LEDs an D1 D2 einstecken
 
-2.4.2 Pull the wire and bend it.
+2.4.2 Am Draht ziehen und biegen.
 
-* Long wire is the plus
+* Langer Draht ist das Plus
 
-2.4.3 Solder it
+2.4.3 LEDs anlöten
 
-2.4.4 Cut the excess wires
+2.4.4 Überstehende Drähte abschneiden
 
 link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video tutorial]
 
-==== Step 2.5 Solder tactile switch and slide switch
+==== Step 2.5 Tastschalter und Schiebeschalter einlöten
 
-*Components* : PCB board, tactile switch, slide switch
+*Komponenten* : Leiterplatte, Tastschalter, Schiebeschalter
 
 [cols="a,a"]
 |====
@@ -249,32 +247,32 @@ link:https://www.youtube.com/watch?v=Z1UVeh1nBuI[click here to watch the video t
 | image::IMG_0704.JPG[320,240] | image::IMG_0705.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.5.1 Insert tactile switch
+2.5.1 Tastschalter einstecken
 
-2.5.2 Solder
+2.5.2 Löten
 
-2.5.3 Insert slide switch
+2.5.3 Schiebeschalter einstecken
 
 [cols="a,a"]
 |====
-| image::insert_slide_switch.jpg[160,120] | Insert slide switch
+| image::insert_slide_switch.jpg[160,120] | Schiebeschalter einstecken
 |====
 
 
-2.5.4 Pull the wire and bend it.
+2.5.4 Am Draht ziehen und biegen.
 
-2.5.5 Solder
+2.5.5 Löten
 
-2.5.6 Cut the excess wires
+2.5.6 Schneide die überschüssigen Drähte ab
 
 link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video tutorial]
 
 
-==== Step 2.6 Solder pinhead sockets for arduino
+==== Step 2.6 Pinhead-Buchsen für Arduino löten
 
-*Components* : PCB board, 2x pinhead sockets
+*Komponenten* : Leiterplatte, 2x Stiftleisten
 
 [cols="a,a"]
 |====
@@ -282,16 +280,16 @@ link:https://www.youtube.com/watch?v=hcBbSzwab0E[click here to watch the video t
 | image::IMG_0706.JPG[320,240] | image::IMG_0708.JPG[320,240]
 |====
 
-*Instructions*
+*Anleitung*
 
-2.6.1 Insert pinhead sockets
+2.6.1 Stecke die Pinhead Anschlüsse ein
 
-2.6.2 Solder
+2.6.2 Löten
 
 link:https://www.youtube.com/watch?v=zDp64vLGs0g[click here to watch the video tutorial]
 
 
-==== Step 2.7 Solder pinhead for servo motors and ultra sonic sensor
+==== Step 2.7 Löten der Pinheads für Servomotoren und Ultraschallsensor
 
 *Komponenten* : Leiterplatte, 4x Pinhead
 
