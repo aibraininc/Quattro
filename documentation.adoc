@@ -360,7 +360,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
   * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
 
-
+  * *Update* : FRQ potentiometer is used to change between training mode and testing mode. 
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
 
