@@ -471,7 +471,7 @@ link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video t
 |====
 | *Before* | *After*
 | image::20191115_141852.jpg[320,240] | image::20191115_141807.jpg[320,240]
-2+|  image::ultrasonic-line.png[320,240]
+2+|  image::ultrasonic-line2.png[320,240]
 |====
 
 *Instructions*
