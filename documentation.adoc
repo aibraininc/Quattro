@@ -327,7 +327,7 @@ link:https://www.youtube.com/watch?v=Mi5ZeXDAiQ4[click here to watch the video t
 
 [cols="a,a"]
 |====
-| image::IMG_1045.JPG[160,120] | Bend the wire on the sides inwards. Bend the three pins outward 
+| image::IMG_1045.JPG[160,120] | Bend the wire on the sides inwards. Bend the three pins outward
 |====
 
 
@@ -344,7 +344,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 
-==== Step 2.9 Label the potentiometer 
+==== Step 2.9 Label the potentiometer
 
 *Components* : PCB board, 4x labels
 
@@ -362,27 +362,6 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
 
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
-
-
-==== Step 2.10 Solder cable for ultrasonic sensor
-
-*Components* : PCB board, socket cable
-
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG_0730.JPG[320,240] | image::IMG_0733.JPG[320,240]
-|====
-
-*Instructions*
-
-2.10.1 Cut the cable
-
-2.10.2 Cut the skin of the cable
-
-2.10.3 Solder the raw cable to 5V of the PCB Board
-
-link:https://www.youtube.com/watch?v=YLfIz8ybxv0[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
 
@@ -484,25 +463,24 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 link:https://www.youtube.com/watch?v=OhgUS3OMzaM[click here to watch the video tutorial]
 
 
-==== Step 4.4 Attach ultrasonic sensor cable to PCB board 
+==== Step 4.4 Attach ultrasonic sensor cable to PCB board
 
-*Components* : 3x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
+*Components* : 4x socket cable, ultlrasonic sensor, mid-body+upper-body, lower-body
 
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG_0769.JPG[320,240] | image::IMG_0771.JPG[320,240]
+| image::20191115_141852.jpg[320,240] | image::20191115_141807.jpg[320,240]
 2+|  image::ultrasonic-line.png[320,240]
 |====
 
 *Instructions*
 
-4.4.1 Attach the ultra sensor cable to PCB board
+4.4.1 Please refer to the picture above.
 
-link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video tutorial]
+4.4.2 Attach the ultra sensor cable to PCB board
 
-
-==== Step 4.5 Check robot works well 
+==== Step 4.5 Check robot works well
 
 *Components* : ultlrasonic sensor, mid-body+upper-body, lower-body
 
@@ -520,7 +498,7 @@ link:https://www.youtube.com/watch?v=ZhT8zTV956E[click here to watch the video t
 
 * Frq: Frequency of the movement, leg moves slow or fast
 
-* PHS: Phase shift of the movement, how asynchronous the robot moves 
+* PHS: Phase shift of the movement, how asynchronous the robot moves
 
 
 4.5.4. Check ultrasonic sensor works
@@ -541,7 +519,7 @@ link:https://www.youtube.com/watch?v=cx4lUVYgGx4[click here to watch the video t
 2+| image::IMG_0780.JPG[320,240]
 |====
 
-==== Step 5.1 Attach mid-body+upper-body with lower body 
+==== Step 5.1 Attach mid-body+upper-body with lower body
 
 *Components:* mid-body+upper-body, lower-body
 
@@ -581,7 +559,7 @@ link:https://www.youtube.com/watch?v=6DWOJDqJkww[click here to watch the video t
 link:https://www.youtube.com/watch?v=fRRNewWKKS0[click here to watch the video tutorial]
 
 
-==== Step 5.3 Build robot legs 
+==== Step 5.3 Build robot legs
 
 You can build robot legs with legos and any stuff you want
 
