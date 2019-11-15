@@ -360,7 +360,7 @@ link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video t
 
   * There are four potentiometers (phase, frequency, amplitude of the robot left and right).
 
-
+  * *Update* : FRQ potentiometer is used to change between training mode and testing mode. 
 // link:https://www.youtube.com/watch?v=Z0V9lda0iZI[click here to watch the video tutorial]
 
 === Step 3. Assemble upperbody
@@ -446,7 +446,7 @@ link:https://www.youtube.com/watch?v=XuOl0A3Rldo[click here to watch the video t
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG_0768.JPG[320,240] | image::IMG_0791.JPG[320,240]
+| image::IMG_0768.JPG[320,240] | image::image_4804.png[320,240]
 |====
 
 *Instructions*
